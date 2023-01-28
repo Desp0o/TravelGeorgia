@@ -30,7 +30,7 @@ export default function PopularDestinaton(){
         {
             popularDestination.map((card)=>{
                 return(
-                    <SwiperSlide>
+                    <SwiperSlide key={card.id}>
                         <CardComponent 
                             title={card.title}
                             cover={card.cover}

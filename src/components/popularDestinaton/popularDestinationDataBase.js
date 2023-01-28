@@ -18,49 +18,49 @@ export const popularDestination =  [
     },
 
     {
-    id:1,
+    id:2,
     cover: `${mtskheta}`,
     title:"Мцхета",
     destination:'Картли, Грузиа'
     },
 
     {
-    id:1,
+    id:3,
     cover: `${kakheti}`,
     title:"Кахетии",
     destination:'Картли, Грузиа'
     },
 
     {
-    id:1,
+    id:4,
     cover: `${kazbegi}`,
     title:"Казбег",
     destination:'Картли, Грузиа'
     },
 
     {
-    id:1,
+    id:5,
     cover: `${borjomi}`,
     title:"Боржоми",
     destination:'Картли, Грузиа'
     },
 
     {
-    id:1,
+    id:6,
     cover: `${uflisicxe}`,
     title:"Уплисцихе",
     destination:'Картли, Грузиа'
     },
 
     {
-    id:1,
+    id:7,
     cover: `${rabati}`,
     title:"Вардзия и Рабат",
     destination:'Картли, Грузиа'
     },
 
     {
-    id:1,
+    id:8,
     cover: `${gareji}`,
     title:"Давид Гареджи",
     destination:'Картли, Грузиа'
