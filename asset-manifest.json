@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TravelGeorgia/static/css/main.8c25f47a.css",
-    "main.js": "/TravelGeorgia/static/js/main.55c9e9d7.js",
+    "main.css": "/TravelGeorgia/static/css/main.3413e65f.css",
+    "main.js": "/TravelGeorgia/static/js/main.0d0e4950.js",
     "static/media/borjomi.webp": "/TravelGeorgia/static/media/borjomi.5fce7ca14247249a265c.webp",
     "static/media/kazbegi.webp": "/TravelGeorgia/static/media/kazbegi.915fb10f7f9146a43e16.webp",
     "static/media/rtveli.webp": "/TravelGeorgia/static/media/rtveli.0c09c03182c1369bf40c.webp",
@@ -20,11 +20,11 @@
     "static/media/church.webp": "/TravelGeorgia/static/media/church.3f613e96a48aa0baf79b.webp",
     "static/media/icon.png": "/TravelGeorgia/static/media/icon.15a60a6e6139cdd03d9a.png",
     "index.html": "/TravelGeorgia/index.html",
-    "main.8c25f47a.css.map": "/TravelGeorgia/static/css/main.8c25f47a.css.map",
-    "main.55c9e9d7.js.map": "/TravelGeorgia/static/js/main.55c9e9d7.js.map"
+    "main.3413e65f.css.map": "/TravelGeorgia/static/css/main.3413e65f.css.map",
+    "main.0d0e4950.js.map": "/TravelGeorgia/static/js/main.0d0e4950.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c25f47a.css",
-    "static/js/main.55c9e9d7.js"
+    "static/css/main.3413e65f.css",
+    "static/js/main.0d0e4950.js"
   ]
 }
