@@ -1,5 +1,6 @@
 import FirstScreen from "./components/firstScreen/firstScreen";
 import Navbar from "./components/navbar/Navbar";
+import PopularDestinaton from "./components/popularDestinaton/popularDestinaton";
 import ToursSection from "./components/toursSection/toursSection";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <FirstScreen />
       <ToursSection />
+      <PopularDestinaton />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 
-
+.mySwiper2,
 .swiper {
   box-sizing: content-box;
   width: 100%;
@@ -9,10 +9,12 @@
   padding-bottom: 70px;
 }
 
-.swiper-slide {
+.mySwiper2 .swiper-slide {
+  width: 270px !important;
+  height: 440px;
   text-align: center;
   font-size: 18px;
-  background: #D0E7EA;
+  background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,9 +36,6 @@
 }
 
 @media (max-width:768px) {
-    .swiper {
-
-      }
       .swiper-pagination{
         margin-left: 0px !important;
     }

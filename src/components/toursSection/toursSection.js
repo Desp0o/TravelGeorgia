@@ -7,11 +7,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import "../../styles/swiperSlider.css";
+import HeaderComponent from "../HeaderComponent";
 
 export default function ToursSection(){
     return(
         <div className="w-full pt-[70px] pb-[40px] bg-[#D0E7EA]">
-            <h1 className="font-[600] text-[48px] xs:text-[30px] text-center">ЭКСКУРСИИ</h1>
+            <HeaderComponent title='ЭКСКУРСИИ' />
 
             <div className="pt-[80px] pl-[120px] pr-[30px] xs:pl-0" >
                         <Swiper
@@ -65,7 +66,7 @@ export default function ToursSection(){
                                                 <span>from</span>
                                                 <span className="text-[#FF6B6B] font-[500] text-[30px]">{item.price}</span>
                                             </div>
-                                            <div className="w-[97px] h-[34px] rounded-[10px] bg-[#00A0B1] cursor-pointer">
+                                            <div className="w-[97px] h-[34px] flex justify-center items-center rounded-[10px] bg-[#00A0B1] cursor-pointer">
                                                 <span className="text-center text-[#FFF]">more</span>
                                             </div>
                                         </div>
