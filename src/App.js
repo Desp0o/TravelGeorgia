@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import PopularDestinaton from "./components/popularDestinaton/popularDestinaton";
 import ToursSection from "./components/toursSection/toursSection";
 import BookFlight from "./components/bookFlights/bookFlight";
+import WhyUs from "./components/whyUs/whyUs";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <FirstScreen />
       <ToursSection />
       <PopularDestinaton />
+      <WhyUs />
       <BookFlight />
     </div>
   );
