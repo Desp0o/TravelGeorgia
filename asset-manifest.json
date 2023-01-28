@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TravelGeorgia/static/css/main.3413e65f.css",
-    "main.js": "/TravelGeorgia/static/js/main.0d0e4950.js",
+    "main.css": "/TravelGeorgia/static/css/main.fa536e95.css",
+    "main.js": "/TravelGeorgia/static/js/main.3b6904e4.js",
     "static/media/borjomi.webp": "/TravelGeorgia/static/media/borjomi.5fce7ca14247249a265c.webp",
     "static/media/kazbegi.webp": "/TravelGeorgia/static/media/kazbegi.915fb10f7f9146a43e16.webp",
     "static/media/rtveli.webp": "/TravelGeorgia/static/media/rtveli.0c09c03182c1369bf40c.webp",
@@ -16,15 +16,20 @@
     "static/media/oldTbilisi.webp": "/TravelGeorgia/static/media/oldTbilisi.9905f3bf1abbb3330fd6.webp",
     "static/media/kakheti.webp": "/TravelGeorgia/static/media/kakheti.c0259775b7c05cab1f7e.webp",
     "static/media/uflisicxe.webp": "/TravelGeorgia/static/media/uflisicxe.697db071f258e4b94a3f.webp",
+    "static/media/Batumi.webp": "/TravelGeorgia/static/media/Batumi.7b5ce62548831240422a.webp",
     "static/media/mtskheta.webp": "/TravelGeorgia/static/media/mtskheta.8a921dd056a7147d9009.webp",
     "static/media/church.webp": "/TravelGeorgia/static/media/church.3f613e96a48aa0baf79b.webp",
+    "static/media/Rectangle4.png": "/TravelGeorgia/static/media/Rectangle4.d70360ccd93de95c60b6.png",
+    "static/media/Rectangle2.png": "/TravelGeorgia/static/media/Rectangle2.5321a25c952de4601842.png",
+    "static/media/Rectangle1.png": "/TravelGeorgia/static/media/Rectangle1.5afc1e62956feb0b4195.png",
+    "static/media/Rectangle3.png": "/TravelGeorgia/static/media/Rectangle3.af78d0e6602e2d528ca9.png",
     "static/media/icon.png": "/TravelGeorgia/static/media/icon.15a60a6e6139cdd03d9a.png",
     "index.html": "/TravelGeorgia/index.html",
-    "main.3413e65f.css.map": "/TravelGeorgia/static/css/main.3413e65f.css.map",
-    "main.0d0e4950.js.map": "/TravelGeorgia/static/js/main.0d0e4950.js.map"
+    "main.fa536e95.css.map": "/TravelGeorgia/static/css/main.fa536e95.css.map",
+    "main.3b6904e4.js.map": "/TravelGeorgia/static/js/main.3b6904e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3413e65f.css",
-    "static/js/main.0d0e4950.js"
+    "static/css/main.fa536e95.css",
+    "static/js/main.3b6904e4.js"
   ]
 }
