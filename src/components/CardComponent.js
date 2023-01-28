@@ -2,7 +2,7 @@ export default function CardComponent(props){
     return(
         <div className="w-[270px] h-[440px] overflow-hidden rounded-[15px] box-border">
             {/* სურათი */}
-            <img src={props.cover} className="relative w-full h-[360px] object-cover rounded-[15px] shadow-[0_6px_10px_0px_rgba(0,0,0,0.3)]" alt="cover"/>
+            <img src={props.cover} className="relative w-full h-[360px] object-cover rounded-[15px]" alt="cover"/>
 
             <div className="my-[20px]">
                 {/* სათაური */}

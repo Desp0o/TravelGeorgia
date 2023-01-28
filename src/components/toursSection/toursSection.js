@@ -14,7 +14,7 @@ export default function ToursSection(){
         <div className="w-full pt-[70px] pb-[40px] bg-[#D0E7EA]">
             <HeaderComponent title='ЭКСКУРСИИ' />
 
-            <div className="pt-[80px] pl-[120px] pr-[30px] xs:pl-0" >
+            <div className="pt-[80px] xs:pt-[40px] pl-[120px] pr-[30px] xs:pl-0" >
                         <Swiper
                             slidesPerView={3.15}
                             spaceBetween={20}
