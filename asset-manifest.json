@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/TravelGeorgia/static/css/main.8c25f47a.css",
+    "main.js": "/TravelGeorgia/static/js/main.55c9e9d7.js",
+    "static/media/borjomi.webp": "/TravelGeorgia/static/media/borjomi.5fce7ca14247249a265c.webp",
+    "static/media/kazbegi.webp": "/TravelGeorgia/static/media/kazbegi.915fb10f7f9146a43e16.webp",
+    "static/media/rtveli.webp": "/TravelGeorgia/static/media/rtveli.0c09c03182c1369bf40c.webp",
+    "static/media/hiking.avif": "/TravelGeorgia/static/media/hiking.7c4a3182044923542398.avif",
+    "static/media/fishing.webp": "/TravelGeorgia/static/media/fishing.7d7059d9d9acfe6dad80.webp",
+    "static/media/tbilisi.png": "/TravelGeorgia/static/media/tbilisi.1e5debe5ca835aba2269.png",
+    "static/media/tbilisi.webp": "/TravelGeorgia/static/media/tbilisi.ac47f2120c7ace12b91c.webp",
+    "static/media/manyDaysTours.webp": "/TravelGeorgia/static/media/manyDaysTours.28718a267eaa497c6634.webp",
+    "static/media/gareji.webp": "/TravelGeorgia/static/media/gareji.25b9b9ac321811a87d41.webp",
+    "static/media/rafting.webp": "/TravelGeorgia/static/media/rafting.2e126c02bd3b6b2ff3b2.webp",
+    "static/media/rabati.webp": "/TravelGeorgia/static/media/rabati.92c518d34b65a75b687b.webp",
+    "static/media/oldTbilisi.webp": "/TravelGeorgia/static/media/oldTbilisi.9905f3bf1abbb3330fd6.webp",
+    "static/media/kakheti.webp": "/TravelGeorgia/static/media/kakheti.c0259775b7c05cab1f7e.webp",
+    "static/media/uflisicxe.webp": "/TravelGeorgia/static/media/uflisicxe.697db071f258e4b94a3f.webp",
+    "static/media/mtskheta.webp": "/TravelGeorgia/static/media/mtskheta.8a921dd056a7147d9009.webp",
+    "static/media/church.webp": "/TravelGeorgia/static/media/church.3f613e96a48aa0baf79b.webp",
+    "static/media/icon.png": "/TravelGeorgia/static/media/icon.15a60a6e6139cdd03d9a.png",
+    "index.html": "/TravelGeorgia/index.html",
+    "main.8c25f47a.css.map": "/TravelGeorgia/static/css/main.8c25f47a.css.map",
+    "main.55c9e9d7.js.map": "/TravelGeorgia/static/js/main.55c9e9d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c25f47a.css",
+    "static/js/main.55c9e9d7.js"
+  ]
+}
