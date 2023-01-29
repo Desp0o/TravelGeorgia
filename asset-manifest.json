@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TravelGeorgia/static/css/main.471bcfcf.css",
-    "main.js": "/TravelGeorgia/static/js/main.350f3bd9.js",
+    "main.js": "/TravelGeorgia/static/js/main.fe6e4317.js",
     "static/media/borjomi.webp": "/TravelGeorgia/static/media/borjomi.5fce7ca14247249a265c.webp",
     "static/media/kazbegi.webp": "/TravelGeorgia/static/media/kazbegi.915fb10f7f9146a43e16.webp",
     "static/media/rtveli.webp": "/TravelGeorgia/static/media/rtveli.0c09c03182c1369bf40c.webp",
@@ -26,10 +26,10 @@
     "static/media/icon.png": "/TravelGeorgia/static/media/icon.15a60a6e6139cdd03d9a.png",
     "index.html": "/TravelGeorgia/index.html",
     "main.471bcfcf.css.map": "/TravelGeorgia/static/css/main.471bcfcf.css.map",
-    "main.350f3bd9.js.map": "/TravelGeorgia/static/js/main.350f3bd9.js.map"
+    "main.fe6e4317.js.map": "/TravelGeorgia/static/js/main.fe6e4317.js.map"
   },
   "entrypoints": [
     "static/css/main.471bcfcf.css",
-    "static/js/main.350f3bd9.js"
+    "static/js/main.fe6e4317.js"
   ]
 }
