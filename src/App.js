@@ -4,6 +4,7 @@ import PopularDestinaton from "./components/popularDestinaton/popularDestinaton"
 import ToursSection from "./components/toursSection/toursSection";
 import BookFlight from "./components/bookFlights/bookFlight";
 import WhyUs from "./components/whyUs/whyUs";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <PopularDestinaton />
       <WhyUs />
       <BookFlight />
+      <Footer />
     </div>
   );
 }

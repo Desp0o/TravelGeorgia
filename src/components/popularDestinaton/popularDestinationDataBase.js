@@ -1,19 +1,19 @@
 
-import oldTbilisi from '../../components/images/oldTbilisi.webp'
-import mtskheta from '../../components/images/mtskheta.webp'
-import kakheti from '../../components/images/kakheti.webp'
-import kazbegi from '../../components/images/kazbegi.webp'
-import uflisicxe from '../../components/images/uflisicxe.webp'
-import borjomi from '../../components/images/borjomi.webp'
-import rabati from '../../components/images/rabati.webp'
-import gareji from '../../components/images/gareji.webp'
+import oldTbilisi from '../../components/images/tbilisi2.png'
+import mtskheta from '../../components/images/mtskheta.jpg'
+import kakheti from '../../components/images/kakheti.png'
+import kazbegi from '../../components/images/kazbegi.png'
+import uflisicxe from '../../components/images/uflisicxe.png'
+import borjomi from '../../components/images/borjomi.png'
+import rabati from '../../components/images/rabati.png'
+import gareji from '../../components/images/gareji.png'
 
 
 export const popularDestination =  [
     {
     id:1,
     cover: `${oldTbilisi}`,
-    title:"Старый Тбилиси + Мцхета",
+    title:"Старый Тбилиси",
     destination:'Картли, Грузиа'
     },
 
@@ -33,15 +33,15 @@ export const popularDestination =  [
 
     {
     id:4,
-    cover: `${kazbegi}`,
-    title:"Казбег",
+    cover: `${borjomi}`,
+    title:"Боржоми",
     destination:'Картли, Грузиа'
     },
 
     {
     id:5,
-    cover: `${borjomi}`,
-    title:"Боржоми",
+    cover: `${rabati}`,
+    title:"Вардзия и Рабат",
     destination:'Картли, Грузиа'
     },
 
@@ -54,8 +54,8 @@ export const popularDestination =  [
 
     {
     id:7,
-    cover: `${rabati}`,
-    title:"Вардзия и Рабат",
+    cover: `${kazbegi}`,
+    title:"Казбег",
     destination:'Картли, Грузиа'
     },
 
@@ -68,3 +68,4 @@ export const popularDestination =  [
     
 
 ]
+

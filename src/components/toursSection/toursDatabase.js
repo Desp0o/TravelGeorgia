@@ -1,10 +1,10 @@
-import manyDaysTours from '../images/manyDaysTours.webp'
-import tbilisi from '../images/tbilisi.webp'
-import fishing from '../images/fishing.webp'
-import rafting from '../images/rafting.webp'
-import hiking from '../images/hiking.avif'
-import church from  '../images/church.webp'
-import rtveli from '../images/rtveli.webp'
+import manyDaysTours from '../images/manyDaysTours.png'
+import tbilisi from '../images/oldTbilisi.png'
+import fishing from '../images/fishing.png'
+import rafting from '../images/rafting.png'
+import hiking from '../images/hiking.png'
+import church from  '../images/church.png'
+import rtveli from '../images/rtveli.png'
 
 
 export const TourDataBase =  [
@@ -12,7 +12,7 @@ export const TourDataBase =  [
     id:1,
     cover: `${tbilisi}`,
     title:"Одного дня",
-    description:"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    description:"is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s is simply dummy text of the printing and typesetting industry. industry industry industry",
     price:'120$'
     },
     {
