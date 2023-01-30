@@ -2,7 +2,7 @@
 
 export default function Uslugi(){
     return(
-        <div className="pl-[120px] xs:pl-[20px] xs:text-[12px] text-[#D7235F] font-[600] pt-[50px] pr-[120px] xs:pr-[20px]">
+        <div className="pl-[120px] xs:pl-[20px] xs:text-[12px] text-[#D7235F] font-[600] pt-[50px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]">
             <p>
                 ВЕЗДЕ В СТОИМОСТЬ ВКЛЮЧЕНЫ УСЛУГИ ЭКСКУРСОВОДА, ВОДИТЕЛЯ И ТРАНСПОРТНЫЕ РАСХОДЫ.<br/>
                 ЕСТЬ  ЭКОНОМ  ПРЕДЛОЖЕНИЯ, когда гид-водитель в одном лице.<br/>

@@ -1,8 +1,8 @@
 
-import oldTbilisi from '../../components/images/tbilisi2.png'
+import oldTbilisi from '../../components/images/tbilisi2.jpg'
 import mtskheta from '../../components/images/mtskheta.jpg'
 import kakheti from '../../components/images/kakheti.png'
-import kazbegi from '../../components/images/kazbegi.png'
+import kazbegi from '../../components/images/kazbegi.jpg'
 import uflisicxe from '../../components/images/uflisicxe.png'
 import borjomi from '../../components/images/borjomi.png'
 import rabati from '../../components/images/rabati.png'
@@ -39,7 +39,7 @@ export const popularDestination =  [
     cover: `${borjomi}`,
     title:"Боржоми",
     time: '8-9 часов',
-    link:'/pages/allTours/allTours'
+    link:'/pages/oneDayTours/oneDayInner/borjomi_inner'
     },
 
     {
@@ -47,15 +47,15 @@ export const popularDestination =  [
     cover: `${rabati}`,
     title:"Вардзия и Рабат",
     time: '7-8 часов',
-    link:'/pages/allTours/allTours'
+    link:'/pages/oneDayTours/oneDayInner/rabati'
     },
 
     {
     id:6,
     cover: `${uflisicxe}`,
-    title:"Уплисцихе",
+    title:"Уплисцихе и Гори",
     time: '4-5 часов',
-    link:'/pages/allTours/allTours'
+    link:'/pages/oneDayTours/oneDayInner/upliscixe_inner'
     },
 
     {
@@ -63,7 +63,7 @@ export const popularDestination =  [
     cover: `${kazbegi}`,
     title:"Казбег",
     time: '8-10 часов',
-    link:'/pages/allTours/allTours'
+    link:'/pages/oneDayTours/oneDayInner/kazbegi_inner'
     },
 
     {
@@ -71,7 +71,7 @@ export const popularDestination =  [
     cover: `${gareji}`,
     title:"Давид Гареджи",
     time: '7 часов',
-    link:'/pages/allTours/allTours'
+    link:'/pages/oneDayTours/oneDayInner/gareji_inner'
     },
     
 

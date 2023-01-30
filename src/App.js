@@ -9,6 +9,11 @@ import AllTours from "./pages/allTours/allTours";
 import OldTbilisi from './pages/oneDayTours/oneDayInner/oldTbilisi_Inner'
 import McxetaInner from "./pages/oneDayTours/oneDayInner/mcxeta_inner";
 import KakhetiOneDay from './pages/oneDayTours/oneDayInner/kakheti_inner'
+import BorjomiOneDay from './pages/oneDayTours/oneDayInner/borjomi_inner'
+import RabatOneDay from "./pages/oneDayTours/oneDayInner/rabati";
+import UpliscixeOneDay from "./pages/oneDayTours/oneDayInner/upliscixe_inner";
+import KazbegiOneDay from "./pages/oneDayTours/oneDayInner/kazbegi_inner";
+import GarejiOneDay from "./pages/oneDayTours/oneDayInner/gareji_inner";
 
 
 function App() {
@@ -23,6 +28,11 @@ function App() {
         <Route exact path="/pages/oneDayTours/oneDayInner/oldTbilisi_Inner" element={<OldTbilisi />} />
         <Route exact path="/pages/oneDayTours/oneDayInner/mcxeta_inner" element={<McxetaInner />} />
         <Route exact path="/pages/oneDayTours/oneDayInner/kakheti_inner" element={<KakhetiOneDay />} />
+        <Route exact path="/pages/oneDayTours/oneDayInner/borjomi_inner" element={<BorjomiOneDay />} />
+        <Route exact path="/pages/oneDayTours/oneDayInner/rabati" element={<RabatOneDay />} />
+        <Route exact path="/pages/oneDayTours/oneDayInner/upliscixe_inner" element={<UpliscixeOneDay />} />
+        <Route exact path="/pages/oneDayTours/oneDayInner/kazbegi_inner" element={<KazbegiOneDay />} />
+        <Route exact path="/pages/oneDayTours/oneDayInner/gareji_inner" element={<GarejiOneDay />} />
       </Routes>
     </div>
   );
