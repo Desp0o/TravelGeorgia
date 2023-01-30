@@ -15,6 +15,12 @@ import UpliscixeOneDay from "./pages/oneDayTours/oneDayInner/upliscixe_inner";
 import KazbegiOneDay from "./pages/oneDayTours/oneDayInner/kazbegi_inner";
 import GarejiOneDay from "./pages/oneDayTours/oneDayInner/gareji_inner";
 
+//ManyDaysTours
+import ManyDaysTours from "./pages/manyDays/manyDays";
+import ThreeDaysInner from "./pages/manyDays/manyDays_inner/threeDays_inner";
+import FiveDaysInner from "./pages/manyDays/manyDays_inner/fiveDays_inner";
+import SevenDaysInner from "./pages/manyDays/manyDays_inner/sevenDays_inner";
+
 
 function App() {
   return (
@@ -33,6 +39,13 @@ function App() {
         <Route exact path="/pages/oneDayTours/oneDayInner/upliscixe_inner" element={<UpliscixeOneDay />} />
         <Route exact path="/pages/oneDayTours/oneDayInner/kazbegi_inner" element={<KazbegiOneDay />} />
         <Route exact path="/pages/oneDayTours/oneDayInner/gareji_inner" element={<GarejiOneDay />} />
+
+        {/* many days */}
+        <Route exact path="/pages/manyDays/manyDays" element={<ManyDaysTours />} />
+        <Route exact path="/pages/manyDays/manyDays_inner/threeDays_inner" element={<ThreeDaysInner />} />
+        <Route exact path="/pages/manyDays/manyDays_inner/fiveDays_inner" element={<FiveDaysInner />} />
+        <Route exact path="/pages/manyDays/manyDays_inner/sevenDays_inner" element={<SevenDaysInner />} />
+
       </Routes>
     </div>
   );
