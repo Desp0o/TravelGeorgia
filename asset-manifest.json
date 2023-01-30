@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/TravelGeorgia/static/css/main.6983a726.css",
-    "main.js": "/TravelGeorgia/static/js/main.4e25f17b.js",
+    "main.css": "/TravelGeorgia/static/css/main.828b4eeb.css",
+    "main.js": "/TravelGeorgia/static/js/main.c0add07e.js",
+    "static/media/mtskheta.png": "/TravelGeorgia/static/media/mtskheta.ddc83ef2b38c9f3b7cd2.png",
     "static/media/gareji.png": "/TravelGeorgia/static/media/gareji.ee309570a0f82f7bf3ec.png",
     "static/media/oldTbilisi.png": "/TravelGeorgia/static/media/oldTbilisi.170d35eac8d5866b69f3.png",
-    "static/media/tbilisi.png": "/TravelGeorgia/static/media/tbilisi.2f2385ce7a4dd181e7eb.png",
+    "static/media/tbilisi.png": "/TravelGeorgia/static/media/tbilisi.be6ab46cfb0ba82429b8.png",
     "static/media/rabati.png": "/TravelGeorgia/static/media/rabati.958686aa0bdebe8aae6d.png",
     "static/media/borjomi.png": "/TravelGeorgia/static/media/borjomi.ee4131a5ff2f0c438c16.png",
     "static/media/uflisicxe.png": "/TravelGeorgia/static/media/uflisicxe.4fc1847ed96fcb50100f.png",
     "static/media/tbilisi2.png": "/TravelGeorgia/static/media/tbilisi2.916c4fd39c0ab30de666.png",
     "static/media/kakheti.png": "/TravelGeorgia/static/media/kakheti.b7b0dd604b6a1c310aef.png",
     "static/media/kazbegi.png": "/TravelGeorgia/static/media/kazbegi.e1caaa0924ff565e7a6f.png",
+    "static/media/kaxeti.jpg": "/TravelGeorgia/static/media/kaxeti.05a71167161c1ff17b9b.jpg",
     "static/media/Batumi.png": "/TravelGeorgia/static/media/Batumi.ea2aa18ed610af85a518.png",
     "static/media/Rectangle4.png": "/TravelGeorgia/static/media/Rectangle4.d70360ccd93de95c60b6.png",
     "static/media/Rectangle2.png": "/TravelGeorgia/static/media/Rectangle2.5321a25c952de4601842.png",
@@ -25,11 +27,11 @@
     "static/media/Rectangle3.png": "/TravelGeorgia/static/media/Rectangle3.af78d0e6602e2d528ca9.png",
     "static/media/icon.png": "/TravelGeorgia/static/media/icon.15a60a6e6139cdd03d9a.png",
     "index.html": "/TravelGeorgia/index.html",
-    "main.6983a726.css.map": "/TravelGeorgia/static/css/main.6983a726.css.map",
-    "main.4e25f17b.js.map": "/TravelGeorgia/static/js/main.4e25f17b.js.map"
+    "main.828b4eeb.css.map": "/TravelGeorgia/static/css/main.828b4eeb.css.map",
+    "main.c0add07e.js.map": "/TravelGeorgia/static/js/main.c0add07e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6983a726.css",
-    "static/js/main.4e25f17b.js"
+    "static/css/main.828b4eeb.css",
+    "static/js/main.c0add07e.js"
   ]
 }
