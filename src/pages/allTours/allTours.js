@@ -10,7 +10,6 @@ export default function AllTours(){
         <div className="w-full">
             <Navbar 
                 homePage='*'
-                tours='#' 
             />
             
             <div className="w-full pt-[100px]">

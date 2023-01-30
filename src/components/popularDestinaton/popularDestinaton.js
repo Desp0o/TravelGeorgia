@@ -35,6 +35,7 @@ export default function PopularDestinaton(){
                             title={card.title}
                             cover={card.cover}
                             time={card.time}
+                            link={card.link}
                         />
                     </SwiperSlide>
                 )

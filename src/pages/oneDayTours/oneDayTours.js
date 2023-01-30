@@ -11,12 +11,12 @@ export default function OneDayTours(){
         <div className="w-full">
             <Navbar 
                 homePage='*'
-                tours='/pages/allTours/allTours' 
+                
             />
 
             <div className="w-full pt-[100px] pb-[100px]">
                 <HeaderComponent title='Одного дня' />
-
+                
                 <div className="flex flex-wrap gap-[40px] pt-[80px] xl:pl-[220px] xl:pr-[220px] justify-center" >
                         {popularDestination.map((item) => {
                             return(
@@ -25,6 +25,7 @@ export default function OneDayTours(){
                                     title={item.title}
                                     cover={item.cover}
                                     time={item.time}
+                                    link={item.link}
                                 />
                             )
                         })}

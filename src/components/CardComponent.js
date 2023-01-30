@@ -1,10 +1,11 @@
 import clock from '../components/images/icons/clock.png'
+import { Link } from 'react-router-dom'
 
 export default function CardComponent(props){
     return(
         <div className="w-[270px] h-[440px] overflow-hidden rounded-[15px] box-border">
             {/* სურათი */}
-            <img src={props.cover} className="cursor-pointer relative w-full h-[360px] object-cover rounded-[15px]" alt="cover"/>
+            <Link to={props.link}><img src={props.cover} className="cursor-pointer relative w-full h-[360px] object-cover rounded-[15px]" alt="cover"/> </Link>
 
             <div className="my-[20px]">
                 {/* სათაური */}

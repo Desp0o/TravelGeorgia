@@ -14,56 +14,64 @@ export const popularDestination =  [
     id:1,
     cover: `${oldTbilisi}`,
     title:"Старый Тбилиси",
-    time: '5 часов'
+    time: '5 часов',
+    link:'/pages/oneDayTours/oneDayInner/oldTbilisi_Inner'
     },
 
     {
     id:2,
     cover: `${mtskheta}`,
     title:"Мцхета",
-    time: '5 часов'
+    time: '5 часов',
+    link:'/pages/oneDayTours/oneDayInner/mcxeta_inner'
     },
 
     {
     id:3,
     cover: `${kakheti}`,
     title:"Кахетии",
-    time: '10 часов'
+    time: '10 часов',
+    link:'/pages/oneDayTours/oneDayInner/kakheti_inner'
     },
 
     {
     id:4,
     cover: `${borjomi}`,
     title:"Боржоми",
-    time: '8-9 часов'
+    time: '8-9 часов',
+    link:'/pages/allTours/allTours'
     },
 
     {
     id:5,
     cover: `${rabati}`,
     title:"Вардзия и Рабат",
-    time: '7-8 часов'
+    time: '7-8 часов',
+    link:'/pages/allTours/allTours'
     },
 
     {
     id:6,
     cover: `${uflisicxe}`,
     title:"Уплисцихе",
-    time: '4-5 часов'
+    time: '4-5 часов',
+    link:'/pages/allTours/allTours'
     },
 
     {
     id:7,
     cover: `${kazbegi}`,
     title:"Казбег",
-    time: '8-10 часов'
+    time: '8-10 часов',
+    link:'/pages/allTours/allTours'
     },
 
     {
     id:8,
     cover: `${gareji}`,
     title:"Давид Гареджи",
-    time: '7 часов'
+    time: '7 часов',
+    link:'/pages/allTours/allTours'
     },
     
 
