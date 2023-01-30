@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'xs': {'min':'0px', 'max':'768px'}
+        'xs': {'min':'0px', 'max':'768px'},
+        'xl': {'min':'1500px', 'max':''}
       }
     },
   },

@@ -3,7 +3,7 @@ import flights from '../images/Flight.png'
 
 export default function FirstScreen(){
     return(
-        <div className="fisrtsection flex w-full pt-[30px] pb-[55px] xs:flex-col xs:gap-[50px] box-border overflow-hidden">
+        <div className="fisrtsection flex w-full pt-[30px] pb-[55px] xs:flex-col xs:gap-[50px] box-border overflow-hidden xl:justify-center">
             <div className="relative w-[600px] xs:w-full pt-[70px] pl-[140px] xs:pl-[40px] pr-[60px] flex xs:h-[310px]">
                 <img  src={flights} alt='flights' className='absolute w-[329px] xs:w-[250px] top-0'/>
 
@@ -21,7 +21,7 @@ export default function FirstScreen(){
             <div className="flex flex-col justify-center xs:items-center gap-[30px] w-[500px] xs:w-full pt-[80px] box-border">
                 <p className='font-[700] text-[24px] text-[#00A0B1] xs:hidden'>Исследуйте Грузию</p>
                 <h1 className='text-[70px] xs:text-[30px] text-left xs:text-center leading-[4rem] font-[500] xs:w-[80%] xs:leading-[3rem]'>Пора путешествовать в Грузии</h1>
-                <p className='text-[16px] w-[400px] text-left xs:text-center'>Дружеское объединение гидов-грузин. Узнай страну от тех, кто в ней родился и живёт!</p>
+                <p className='text-[16px] w-[400px] text-left xs:text-center xs:w-[95%]'>Дружеское объединение гидов-грузин. Узнай страну от тех, кто в ней родился и живёт!</p>
                 <div className='bg-[#00A0B1] w-[140px] h-[34px] rounded-[5px] flex content-center items-center justify-center cursor-pointer'>
                     <span className='text-[16px] text-[#FFF]'>ЭКСКУРСИИ</span>
                 </div>

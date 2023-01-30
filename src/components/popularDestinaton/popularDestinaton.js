@@ -17,7 +17,7 @@ export default function PopularDestinaton(){
             <HeaderComponent title='Самые популярные' />
             
             {/* სვაიპერი */}
-            <div className="pt-[80px] xs:pt-[40px] pl-[120px] pr-[30px] xs:pl-0">
+            <div className="pt-[80px] xs:pt-[40px] pl-[120px] xs:pl-0">
             <Swiper
                 slidesPerView={"auto"}
                 spaceBetween={30}

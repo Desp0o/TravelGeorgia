@@ -11,7 +11,7 @@ export default function BookFlight(){
         <div className="w-full pt-[27px]">
             <HeaderComponent title='Забронируйте Поездку'/>
 
-            <div className='w-full pt-[80px] xs:pt-[40px] pl-[140px] xs:pl-[40px] pb-[80px] flex gap-[60px]'>
+            <div className='w-full pt-[80px] xs:pt-[40px] pl-[140px] xs:pl-[40px] pb-[80px] flex gap-[60px] xl:justify-center'>
 
                 {/* მარცხენა მხარე */}
                 <div className='flex flex-col'>
@@ -39,7 +39,7 @@ export default function BookFlight(){
                 </div>
 
                 {/* სურათი მარჯვენა */}
-                <img src={batumi} alt='booking img' className='w-[570px] rounded-[20px]' />
+                <img src={batumi} alt='booking img' className='w-[570px] rounded-[20px] xs:hidden' />
             </div>
         </div>
     )

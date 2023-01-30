@@ -41,7 +41,7 @@ export default function ToursSection(){
                                   spaceBetween: 20,
                                 },
                                 1554: {
-                                    slidesPerView: 5,
+                                    slidesPerView: 4.15,
                                     spaceBetween: 30,
                                   },
                               }}
