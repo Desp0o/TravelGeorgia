@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import logo from '../images/icon.png'
 
 export default function Navbar(props){
@@ -7,8 +9,8 @@ export default function Navbar(props){
             <img src={logo} alt='company logo' className='w-[170px]' />
 
             <div className='menu flex gap-[55px] align-top h-full xs:hidden'>
-                <li className='menu_links text-[14px] cursor-pointer'>ГЛАВНАЯ</li>
-                <li className='menu_links text-[14px] cursor-pointer'>ЭКСКУРСИИ</li>
+                <Link to={props.homePage}><li className='menu_links text-[14px] cursor-pointer'>ГЛАВНАЯ</li></Link>
+                <Link to={props.tours}><li className='menu_links text-[14px] cursor-pointer'>ЭКСКУРСИИ</li></Link>
                 <li className='menu_links text-[14px] cursor-pointer'>ГИДЫ</li>
                 <li className='menu_links text-[14px] cursor-pointer'>О НАС</li>
             </div>

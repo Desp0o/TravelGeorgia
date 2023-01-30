@@ -34,7 +34,7 @@ export default function PopularDestinaton(){
                         <CardComponent 
                             title={card.title}
                             cover={card.cover}
-                            destination={card.destination}
+                            time={card.time}
                         />
                     </SwiperSlide>
                 )

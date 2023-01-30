@@ -1,21 +1,19 @@
-import FirstScreen from "./components/firstScreen/firstScreen";
-import Navbar from "./components/navbar/Navbar";
-import PopularDestinaton from "./components/popularDestinaton/popularDestinaton";
-import ToursSection from "./components/toursSection/toursSection";
-import BookFlight from "./components/bookFlights/bookFlight";
-import WhyUs from "./components/whyUs/whyUs";
-import Footer from "./components/Footer/Footer";
+import {Routes,Route} from "react-router-dom";
+
+
+import Main from "./Main";
+import OneDayTours from "./pages/oneDayTours/oneDayTours";
+import AllTours from "./pages/allTours/allTours";
+
 
 function App() {
   return (
     <div className="App overflow-x-hidden">
-      <Navbar />
-      <FirstScreen />
-      <ToursSection />
-      <PopularDestinaton />
-      <WhyUs />
-      <BookFlight />
-      <Footer />
+      <Routes>
+        <Route exact path="*" element={<Main />} />
+        <Route exact path="/pages/oneDayTours/oneDayTours" element={<OneDayTours />} />
+        <Route exact path="/pages/allTours/allTours" element={<AllTours />} />
+      </Routes>
     </div>
   );
 }

@@ -14,56 +14,56 @@ export const popularDestination =  [
     id:1,
     cover: `${oldTbilisi}`,
     title:"Старый Тбилиси",
-    destination:'Картли, Грузиа'
+    time: '5 часов'
     },
 
     {
     id:2,
     cover: `${mtskheta}`,
     title:"Мцхета",
-    destination:'Картли, Грузиа'
+    time: '5 часов'
     },
 
     {
     id:3,
     cover: `${kakheti}`,
     title:"Кахетии",
-    destination:'Картли, Грузиа'
+    time: '10 часов'
     },
 
     {
     id:4,
     cover: `${borjomi}`,
     title:"Боржоми",
-    destination:'Картли, Грузиа'
+    time: '8-9 часов'
     },
 
     {
     id:5,
     cover: `${rabati}`,
     title:"Вардзия и Рабат",
-    destination:'Картли, Грузиа'
+    time: '7-8 часов'
     },
 
     {
     id:6,
     cover: `${uflisicxe}`,
     title:"Уплисцихе",
-    destination:'Картли, Грузиа'
+    time: '4-5 часов'
     },
 
     {
     id:7,
     cover: `${kazbegi}`,
     title:"Казбег",
-    destination:'Картли, Грузиа'
+    time: '8-10 часов'
     },
 
     {
     id:8,
     cover: `${gareji}`,
     title:"Давид Гареджи",
-    destination:'Картли, Грузиа'
+    time: '7 часов'
     },
     
 
