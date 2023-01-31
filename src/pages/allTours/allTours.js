@@ -16,7 +16,7 @@ export default function AllTours(){
                 <HeaderComponent title='ЭКСКУРСИИ' />
             </div>
 
-            <div className="flex flex-wrap gap-[50px] pt-[80px] pb-[100px] pl-[80px] xs:pl-[20px] xl:pl-[150px]">
+            <div className="flex flex-wrap gap-[50px] pt-[80px] pb-[100px] pl-[80px] xs:pl-[0px] xl:pl-[150px] xs:justify-center xs:items-center">
                 {
                     TourDataBase.map((item) => {
                         return(

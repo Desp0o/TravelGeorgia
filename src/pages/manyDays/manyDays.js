@@ -15,7 +15,7 @@ export default function ManyDaysTours(){
             />
 
             <div className="w-full pt-[100px] pb-[100px]">
-                <HeaderComponent title='Одного дня' />
+                <HeaderComponent title='Многодневные Туры' />
                 
                 <div className="flex flex-wrap gap-[40px] pt-[80px] justify-center items-center" >
                         {ManyDaysData.map((item) => {
