@@ -13,11 +13,11 @@ import "../../styles/swiperSlider.css";
 
 export default function PopularDestinaton(){
     return(
-        <div className="pt-[68px] pb-[80px]">
+        <div className="pt-[30px] pb-[80px]">
             <HeaderComponent title='Самые популярные' />
             
             {/* სვაიპერი */}
-            <div className="pt-[80px] xs:pt-[40px] pl-[120px] xs:pl-0">
+            <div className="pt-[30px] xs:pt-[40px] pl-[120px] xs:pl-0">
             <Swiper
                 slidesPerView={"auto"}
                 spaceBetween={30}

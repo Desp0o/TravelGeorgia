@@ -4,7 +4,7 @@ import flights from '../images/Flight.png'
 
 export default function FirstScreen(){
     return(
-        <div className="fisrtsection flex w-full pt-[30px] pb-[55px] xs:flex-col xs:gap-[50px] box-border overflow-hidden xl:justify-center">
+        <div className="fisrtsection flex w-full pt-[30px] xs:pt-[100px] pb-[55px] xs:flex-col xs:gap-[50px] box-border overflow-hidden xl:justify-center">
             <div className="relative w-[600px] xs:w-full pt-[70px] pl-[140px] xs:pl-[40px] pr-[60px] flex xs:h-[310px]">
                 <img  src={flights} alt='flights' className='absolute w-[329px] xs:w-[250px] top-0'/>
 

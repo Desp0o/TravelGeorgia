@@ -39,6 +39,15 @@ import HikingInner from "./pages/hiking/hiking_inner";
 //church
 import ChurchInner from "./pages/church/church_inner";
 
+//georgias
+import ForGeorgians from "./pages/forGeorgians/forGeorgians";
+
+//about us
+import AboutUs from "./pages/aboutUs/aboutUs";
+
+//Services
+import Services from "./pages/uslugi/uslugi";
+
 function App() {
   return (
     <div className="App overflow-x-hidden">
@@ -80,6 +89,15 @@ function App() {
 
         {/* church */}
         <Route exact path="/pages/church/church_inner" element={<ChurchInner />} />
+
+        {/* georgians */}
+        <Route exact path="/pages/forGeorgians/forGeorgians" element={<ForGeorgians />} />
+
+        {/* about us */}
+        <Route exact path="/pages/aboutUs/aboutUs" element={<AboutUs />} />
+
+        {/* service */}
+        <Route exact path="/pages/uslugi/uslugi" element={<Services />} />
 
       </Routes>
     </div>

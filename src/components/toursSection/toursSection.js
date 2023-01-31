@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import { TourDataBase } from "./toursDatabase";
 import { Link } from "react-router-dom";
+import { useRef, useEffect } from "react";
 
 
 import "swiper/css";
@@ -11,11 +12,12 @@ import "../../styles/swiperSlider.css";
 import HeaderComponent from "../HeaderComponent";
 
 export default function ToursSection(){
+
     return(
-        <div className="w-full pt-[70px] pb-[40px] bg-[#D0E7EA]">
+        <div className="w-full pt-[30px] pb-[40px] bg-[#D0E7EA]">
             <HeaderComponent title='ЭКСКУРСИИ' />
 
-            <div className="pt-[80px] xs:pt-[40px] pl-[120px] xs:pl-0" >
+            <div className="pt-[30px] xs:pt-[40px] pl-[120px] xs:pl-0" >
                         <Swiper
                             slidesPerView={3.09}
                             spaceBetween={30}
@@ -38,8 +40,8 @@ export default function ToursSection(){
                                   spaceBetween: 40,
                                 },
                                 1024: {
-                                  slidesPerView: 3.15,
-                                  spaceBetween: 20,
+                                  slidesPerView: 3.1,
+                                  spaceBetween: 30,
                                 },
                                 1554: {
                                     slidesPerView: 4.15,
@@ -66,7 +68,7 @@ export default function ToursSection(){
 
                                         <div className="flex justify-between items-center absolute bottom-[20px] xs:bottom-[15px] right-[25px] left-[10px] w-[100]">
                                             <div className="flex items-center gap-[5px]">
-                                                <span className="xs:text-[14px]">от</span>
+                                                <span className="xs:text-[14px]">{item.from}</span>
                                                 <span className="text-[#FF6B6B] font-[500] text-[30px] xs:text-[16px]">{item.price}</span>
                                             </div>
                                             <Link to={item.redirect}>

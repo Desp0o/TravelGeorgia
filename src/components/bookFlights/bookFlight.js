@@ -8,10 +8,10 @@ import batumi from '../../components/images/Batumi.png'
 
 export default function BookFlight(){
     return(
-        <div className="w-full pt-[27px]">
+        <div className="w-full pt-[30px]">
             <HeaderComponent title='Забронируйте Поездку'/>
 
-            <div className='w-full pt-[80px] xs:pt-[40px] pl-[140px] xs:pl-[40px] pb-[80px] flex gap-[60px] xl:justify-center'>
+            <div className='w-full pt-[30px] xs:pt-[40px] pl-[140px] xs:pl-[40px] pb-[80px] flex gap-[60px] xl:justify-center'>
 
                 {/* მარცხენა მხარე */}
                 <div className='flex flex-col'>

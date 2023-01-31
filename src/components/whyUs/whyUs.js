@@ -2,7 +2,6 @@ import rec1 from '../../components/images/Rectangle1.png'
 import rec2 from '../../components/images/Rectangle2.png'
 import rec3 from '../../components/images/Rectangle3.png'
 import rec4 from '../../components/images/Rectangle4.png'
-import HeaderComponent from '../HeaderComponent'
 import Counting from './countComponent'
 
 export default function WhyUs(){
@@ -34,17 +33,17 @@ export default function WhyUs(){
                 <div className='flex gap-[30px] my-[60px] xs:justify-center xs:items-center xs:w-[100%]'>
                     <Counting 
                         number={50}
-                        text='Success Tour'
+                        text='экскурсии'
                     />
 
                     <Counting 
                         number={50}
-                        text='Success Tour'
+                        text='клиенты'
                     />
 
                     <Counting 
                         number={50}
-                        text='Success Tour'
+                        text='лет опыта'
                     />
                 </div>
             </div>

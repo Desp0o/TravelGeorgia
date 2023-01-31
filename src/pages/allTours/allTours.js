@@ -12,11 +12,11 @@ export default function AllTours(){
                 homePage='*'
             />
             
-            <div className="w-full pt-[100px]">
+            <div className="w-full pt-[30px] xs:pt-[100px]">
                 <HeaderComponent title='ЭКСКУРСИИ' />
             </div>
 
-            <div className="flex flex-wrap gap-[50px] pt-[80px] pb-[100px] pl-[80px] xs:pl-[0px] xl:pl-[150px] xs:justify-center xs:items-center">
+            <div className="flex flex-wrap gap-[50px] pt-[0px] pb-[100px] pl-[80px] xs:pl-[0px] xl:pl-[150px] xs:justify-center xs:items-center">
                 {
                     TourDataBase.map((item) => {
                         return(
