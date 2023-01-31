@@ -4,7 +4,7 @@ import OfferComponent from './offerComponent'
 import location2 from '../../components/images/icons/location2.png'
 import payment from '../../components/images/icons/payment.png'
 import airport from '../../components/images/icons/airport.png'
-import batumi from '../../components/images/Batumi.png'
+import batumi from '../../components/images/Batumi.jpg'
 
 export default function BookFlight(){
     return(
@@ -19,22 +19,20 @@ export default function BookFlight(){
                     <OfferComponent 
                         icon={location2}
                         title='Выберите Пункт'
-                        descritpion='Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+                        descritpion='Выберите услугу, тур, экскурсию, которые Вас заинтересовали. Напишите нам для уточнения деталей и окончательного бронирования за Вами дат, транспорта и гида. '
                     />
 
                     <OfferComponent 
                         icon={payment}
                         title='Оплата При Встрече'
-                        descritpion='Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+                        descritpion='Оплата
+                        осуществляется при встрече , без предоплат, если только речь не идёт о  заказе мероприятия для большого количества человек, требующего бронирования мест в ресторане, автобусов.'
                     />
 
                     <OfferComponent 
                         icon={airport}
                         title='Встреча в Аэропорту'
-                        descritpion='Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+                        descritpion='Трансфер из аэропорта к месту жительства  и  другие виды трансфера,  осуществляются по предварительной договоренности. При заказе 4 и более экскурсий для участников от 1 до 5 человек встреча в аэропорту бесплатна.'
                     />
                 </div>
 

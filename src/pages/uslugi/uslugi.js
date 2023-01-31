@@ -14,10 +14,7 @@ export default function Services() {
             <div className='pt-[0px] xs:pt-[100px]'>
                 <HeaderComponent title='Услуги' />
             </div>
-
-            <StepBack link='/pages/allTours/allTours' />
-
-
+            
             <img src={cover} alt='cover' className='w-full h-[300px] pl-[120px] xs:pl-[20px] xs:pr-[20px] pr-[120px] object-cover object-center' />
 
             <div className=' w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]' >
