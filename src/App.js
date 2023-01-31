@@ -24,6 +24,9 @@ import TenDaysInner from "./pages/manyDays/manyDays_inner/svaneti_inner";
 import BatumiInner from "./pages/manyDays/manyDays_inner/batumi_inner";
 import KakhetiInner from "./pages/manyDays/manyDays_inner/kakheti_inner";
 
+//fishing
+import FishingInner from "./pages/fishing/fishing";
+
 function App() {
   return (
     <div className="App overflow-x-hidden">
@@ -50,6 +53,9 @@ function App() {
         <Route exact path="/pages/manyDays/manyDays_inner/svaneti_inner" element={<TenDaysInner />} />
         <Route exact path="/pages/manyDays/manyDays_inner/batumi_inner" element={<BatumiInner />} />
         <Route exact path="/pages/manyDays/manyDays_inner/kakheti_inner" element={<KakhetiInner />} />
+
+        {/* fishing */}
+        <Route exact path="/pages/fishing/fishing" element={<FishingInner />} />
 
       </Routes>
     </div>
