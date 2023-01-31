@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TravelGeorgia/static/css/main.f124c6e2.css",
-    "main.js": "/TravelGeorgia/static/js/main.e52557c4.js",
+    "main.js": "/TravelGeorgia/static/js/main.a90464af.js",
     "static/js/272.8ef5b0ec.chunk.js": "/TravelGeorgia/static/js/272.8ef5b0ec.chunk.js",
     "static/media/fishingInner.jpg": "/TravelGeorgia/static/media/fishingInner.90dd6a65f35e9560c1e8.jpg",
     "static/media/hikinginner.jpg": "/TravelGeorgia/static/media/hikinginner.e84abb23edf25f8724ab.jpg",
@@ -27,8 +27,8 @@
     "static/media/kaxeti.jpg": "/TravelGeorgia/static/media/kaxeti.05a71167161c1ff17b9b.jpg",
     "static/media/davitgareja.jpg": "/TravelGeorgia/static/media/davitgareja.feb3604af8390852c9f9.jpg",
     "static/media/tbilisi2.jpg": "/TravelGeorgia/static/media/tbilisi2.d0cdf5dc195764142762.jpg",
-    "static/media/Batumi.png": "/TravelGeorgia/static/media/Batumi.ea2aa18ed610af85a518.png",
     "static/media/fish8.jpg": "/TravelGeorgia/static/media/fish8.2f5f548944e42e3d1a5e.jpg",
+    "static/media/Batumi.jpg": "/TravelGeorgia/static/media/Batumi.f9f4024d227bf234cbc3.jpg",
     "static/media/fish1.jpg": "/TravelGeorgia/static/media/fish1.d40b09688a064d81b0d2.jpg",
     "static/media/fish4.jpg": "/TravelGeorgia/static/media/fish4.bfe102056398a0f0d18c.jpg",
     "static/media/fish5.jpg": "/TravelGeorgia/static/media/fish5.ae184f172df71fe9a42a.jpg",
@@ -56,11 +56,11 @@
     "static/media/icon.png": "/TravelGeorgia/static/media/icon.15a60a6e6139cdd03d9a.png",
     "index.html": "/TravelGeorgia/index.html",
     "main.f124c6e2.css.map": "/TravelGeorgia/static/css/main.f124c6e2.css.map",
-    "main.e52557c4.js.map": "/TravelGeorgia/static/js/main.e52557c4.js.map",
+    "main.a90464af.js.map": "/TravelGeorgia/static/js/main.a90464af.js.map",
     "272.8ef5b0ec.chunk.js.map": "/TravelGeorgia/static/js/272.8ef5b0ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f124c6e2.css",
-    "static/js/main.e52557c4.js"
+    "static/js/main.a90464af.js"
   ]
 }
