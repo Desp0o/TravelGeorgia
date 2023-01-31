@@ -30,6 +30,12 @@ import FishingInner from "./pages/fishing/fishing";
 //rafting
 import RaftingInner from "./pages/rafting/rafting_inner";
 
+//celebrations
+import CelebrationInner from "./pages/celebration/celebration";
+
+//hiking
+import HikingInner from "./pages/hiking/hiking_inner";
+
 function App() {
   return (
     <div className="App overflow-x-hidden">
@@ -63,6 +69,11 @@ function App() {
         {/* rafting */}
         <Route exact path="/pages/rafting/rafting_inner" element={<RaftingInner />} />
 
+        {/* celebrations */}
+        <Route exact path="/pages/celebration/celebration" element={<CelebrationInner />} />
+
+        {/* hiking */}
+        <Route exact path="/pages/hiking/hiking_inner" element={<HikingInner />} />
 
       </Routes>
     </div>
