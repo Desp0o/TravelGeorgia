@@ -35,7 +35,7 @@ export default function Navbar(props) {
             className="fixed bg-[#fff] navbar w-full h-[80px] pl-[140px] pr-[140px] 
                    flex items-center	justify-between box-border overflow-hidden z-20
                    xs:pl-[20px] xs:pr-[20px] shadow-[0px_0px_20px_0.5px_rgba(0,0,0,0.3)]">
-            <img src={logo} alt='company logo' className='w-[100px] xs:w-[100px]' />
+            <Link to='*'><img src={logo} alt='company logo' className='w-[100px] xs:w-[100px]' /></Link>
 
             <div className='menu flex gap-[55px] items-center h-full xs:hidden font-[900] text-[#00A0B1]'>
                 <Link to={props.homePage} onClick={burgerHandler}><li className='menu_links text-[14px] cursor-pointer list-none' >ГЛАВНАЯ</li></Link>

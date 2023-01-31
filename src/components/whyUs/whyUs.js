@@ -29,7 +29,7 @@ export default function WhyUs(){
         
 
                 {/* რიცხვები */}
-                <div className='flex gap-[30px] my-[60px] xs:justify-center xs:items-center xs:w-[100%]'>
+                <div className='flex gap-[30px] my-[60px] xs:my-[20px] xs:justify-center xs:items-center xs:w-[100%]'>
                     <Counting 
                         number={1000}
                         text='экскурсии'

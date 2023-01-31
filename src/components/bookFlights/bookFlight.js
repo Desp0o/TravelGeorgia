@@ -14,7 +14,7 @@ export default function BookFlight(){
             <div className='w-full pt-[30px] xs:pt-[40px] pl-[140px] xs:pl-[40px] pb-[80px] flex gap-[60px] xl:justify-center'>
 
                 {/* მარცხენა მხარე */}
-                <div className='flex flex-col'>
+                <div className='flex flex-col xs:gap-[20px]'>
                     {/* ელემენტი 1 */}
                     <OfferComponent 
                         icon={location2}
