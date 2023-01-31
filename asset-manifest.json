@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c675327.css",
-    "main.js": "/static/js/main.812eaa2d.js",
+    "main.css": "/static/css/main.d5b9823f.css",
+    "main.js": "/static/js/main.5a25e1ec.js",
     "static/js/272.8ef5b0ec.chunk.js": "/static/js/272.8ef5b0ec.chunk.js",
     "static/media/fishingInner.jpg": "/static/media/fishingInner.90dd6a65f35e9560c1e8.jpg",
     "static/media/hikinginner.jpg": "/static/media/hikinginner.e84abb23edf25f8724ab.jpg",
@@ -55,12 +55,12 @@
     "static/media/bpg_nino_mtavruli_normal.otf": "/static/media/bpg_nino_mtavruli_normal.331736f59d5f0a121b51.otf",
     "static/media/icon.png": "/static/media/icon.15a60a6e6139cdd03d9a.png",
     "index.html": "/index.html",
-    "main.9c675327.css.map": "/static/css/main.9c675327.css.map",
-    "main.812eaa2d.js.map": "/static/js/main.812eaa2d.js.map",
+    "main.d5b9823f.css.map": "/static/css/main.d5b9823f.css.map",
+    "main.5a25e1ec.js.map": "/static/js/main.5a25e1ec.js.map",
     "272.8ef5b0ec.chunk.js.map": "/static/js/272.8ef5b0ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c675327.css",
-    "static/js/main.812eaa2d.js"
+    "static/css/main.d5b9823f.css",
+    "static/js/main.5a25e1ec.js"
   ]
 }
