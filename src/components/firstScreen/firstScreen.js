@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import tbilisi from '../images/tbilisi.png'
 import flights from '../images/Flight.png'
 
@@ -22,9 +23,10 @@ export default function FirstScreen(){
                 <p className='font-[700] text-[24px] text-[#00A0B1] xs:hidden'>Исследуйте Грузию</p>
                 <h1 className='text-[70px] xs:text-[30px] text-left xs:text-center leading-[4rem] font-[500] xs:w-[80%] xs:leading-[3rem]'>Пора путешествовать в Грузии</h1>
                 <p className='text-[16px] w-[400px] text-left xs:text-center xs:w-[95%]'>Дружеское объединение гидов-грузин. Узнай страну от тех, кто в ней родился и живёт!</p>
-                <div className='bg-[#00A0B1] w-[140px] h-[34px] rounded-[5px] flex content-center items-center justify-center cursor-pointer'>
+                
+                <Link to='/pages/allTours/allTours'><div className='bg-[#00A0B1] w-[140px] h-[34px] rounded-[5px] flex content-center items-center justify-center cursor-pointer'>
                     <span className='text-[16px] text-[#FFF]'>ЭКСКУРСИИ</span>
-                </div>
+                </div></Link>
             </div>
         </div>
     )

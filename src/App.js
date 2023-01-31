@@ -20,7 +20,9 @@ import ManyDaysTours from "./pages/manyDays/manyDays";
 import ThreeDaysInner from "./pages/manyDays/manyDays_inner/threeDays_inner";
 import FiveDaysInner from "./pages/manyDays/manyDays_inner/fiveDays_inner";
 import SevenDaysInner from "./pages/manyDays/manyDays_inner/sevenDays_inner";
-
+import TenDaysInner from "./pages/manyDays/manyDays_inner/svaneti_inner";
+import BatumiInner from "./pages/manyDays/manyDays_inner/batumi_inner";
+import KakhetiInner from "./pages/manyDays/manyDays_inner/kakheti_inner";
 
 function App() {
   return (
@@ -45,6 +47,9 @@ function App() {
         <Route exact path="/pages/manyDays/manyDays_inner/threeDays_inner" element={<ThreeDaysInner />} />
         <Route exact path="/pages/manyDays/manyDays_inner/fiveDays_inner" element={<FiveDaysInner />} />
         <Route exact path="/pages/manyDays/manyDays_inner/sevenDays_inner" element={<SevenDaysInner />} />
+        <Route exact path="/pages/manyDays/manyDays_inner/svaneti_inner" element={<TenDaysInner />} />
+        <Route exact path="/pages/manyDays/manyDays_inner/batumi_inner" element={<BatumiInner />} />
+        <Route exact path="/pages/manyDays/manyDays_inner/kakheti_inner" element={<KakhetiInner />} />
 
       </Routes>
     </div>

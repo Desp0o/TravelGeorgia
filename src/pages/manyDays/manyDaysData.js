@@ -2,6 +2,8 @@ import seven from '../../components/images/inner/ananuri.jpg'
 import kaxeti from '../../components/images/inner/kaxeti.jpg'
 import kazbegi from '../../components/images/inner/kazbegi.jpg'
 import mtskheta from '../../components/images/mtskheta.jpg'
+import svaneti from '../../components/images/inner/svaneti.jpg'
+import batumi from '../../components/images/inner/batumi.jpg'
 
 
 export const ManyDaysData =  [
@@ -28,9 +30,23 @@ export const ManyDaysData =  [
     },
     {
     id:4,
+    cover: `${svaneti}`,
+    title:"Десятидневный Тур",
+    link: '/pages/manyDays/manyDays_inner/svaneti_inner',
+    time:"10 дня"
+    },
+    {
+    id:5,
     cover: `${kaxeti}`,
     title:"Три дня в кахетии",
-    link: '',
+    link: '/pages/manyDays/manyDays_inner/kakheti_inner',
+    time:"3 дня"
+    },
+    {
+    id:6,
+    cover: `${batumi}`,
+    title:"Трехдневный Тур",
+    link: '/pages/manyDays/manyDays_inner/batumi_inner',
     time:"3 дня"
     },
     
