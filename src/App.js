@@ -36,6 +36,9 @@ import CelebrationInner from "./pages/celebration/celebration";
 //hiking
 import HikingInner from "./pages/hiking/hiking_inner";
 
+//church
+import ChurchInner from "./pages/church/church_inner";
+
 function App() {
   return (
     <div className="App overflow-x-hidden">
@@ -74,6 +77,9 @@ function App() {
 
         {/* hiking */}
         <Route exact path="/pages/hiking/hiking_inner" element={<HikingInner />} />
+
+        {/* church */}
+        <Route exact path="/pages/church/church_inner" element={<ChurchInner />} />
 
       </Routes>
     </div>

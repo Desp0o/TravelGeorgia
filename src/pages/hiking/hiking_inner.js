@@ -13,7 +13,7 @@ export default function HikingInner(){
             <Navbar homePage='*' />
             
             <div className='pt-[100px]'>
-                <HeaderComponent title='Пятидневный Тур' />
+                <HeaderComponent title='ПОХОДЫ В ГОРЫ' />
             </div>
 
             <StepBack link='/pages/manyDays/manyDays' />

@@ -71,7 +71,7 @@ export default function ToursSection(){
                                             </div>
                                             <Link to={item.redirect}>
                                                 <div className="w-[97px] xs:w-[57px] h-[34px] xs:h-[24px]  flex justify-center items-center rounded-[10px] bg-[#00A0B1] cursor-pointer">
-                                                    <span className="text-center text-[#FFF] xs:text-[12px]">more</span>
+                                                    <span className="text-center text-[#FFF] xs:text-[12px]">далше</span>
                                                 </div>
                                             </Link>
                                         </div>
