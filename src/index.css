@@ -39,6 +39,10 @@ code {
   object-fit: cover;
 }
 
+.burgerMenu_panel{
+  display: none;
+}
+
 @media (max-width:768px) {
   .burgerMenu_panel{
     box-sizing: border-box;

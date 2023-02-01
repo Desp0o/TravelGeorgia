@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import '../../index.css'
+import Social from '../social'
 
 import logo from '../images/icon.png'
 import menuBars from '../images/icons/menuBars.png'
@@ -74,6 +75,7 @@ export default function Navbar(props) {
                 <Link to='/pages/allTours/allTours'><li className='menu_links text-[14px] cursor-pointer list-none'>ЭКСКУРСИИ</li></Link>
                 <Link to='/pages/uslugi/uslugi'><li className='menu_links text-[14px] cursor-pointer list-none uppercase'>Услуги</li></Link>
                 <Link to='/pages/aboutUs/aboutUs'><li className='menu_links text-[14px] cursor-pointer list-none'>О НАС</li></Link>
+                <Social fill='#00A0B1' gap='gap-[20px]' />
             </div>
 
             <div className={overlay} onClick={burgerHandler}></div>

@@ -15,7 +15,7 @@ export default function ToursSection(){
 
     return(
         <div className="w-full pt-[30px] pb-[40px] bg-[#D0E7EA]">
-            <HeaderComponent title='ЭКСКУРСИИ' />
+            <HeaderComponent title='НАШИ ПРЕДЛОЖЕНИЯ' />
 
             <div className="pt-[30px] xs:pt-[40px] pl-[120px] xs:pl-0" >
                         <Swiper
