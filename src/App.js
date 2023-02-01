@@ -50,7 +50,7 @@ import Services from "./pages/uslugi/uslugi";
 
 function App() {
   return (
-    <div className="App overflow-x-hidden">
+    
       <Routes>
         <Route exact path="*" element={<Main />} />
         <Route exact path="/pages/oneDayTours/oneDayTours" element={<OneDayTours />} />
@@ -100,7 +100,7 @@ function App() {
         <Route exact path="/pages/uslugi/uslugi" element={<Services />} />
 
       </Routes>
-    </div>
+    
   );
 }
 

@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 
 function Main() {
   return (
-    <div className="App overflow-x-hidden">
+    <div>
       <Navbar homePage='*' />
       <FirstScreen />
       <ToursSection />
