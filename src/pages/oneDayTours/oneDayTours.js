@@ -14,7 +14,7 @@ export default function OneDayTours(){
                 
             />
 
-            <div className="w-full pt-[30px] xs:pt-[100px] pb-[100px]">
+            <div className="w-full pt-[100px] pb-[100px]">
                 <HeaderComponent title='Одного дня' />
                 
                 <div className="flex flex-wrap gap-[40px] pt-[0px] xl:pl-[220px] xl:pr-[220px] justify-center" >

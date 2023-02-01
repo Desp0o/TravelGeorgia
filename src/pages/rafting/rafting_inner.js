@@ -14,7 +14,7 @@ export default function RaftingInner() {
         <div className="w-full">
             <Navbar homePage='*' />
 
-            <div className='pt-[0px] xs:pt-[100px]'>
+            <div className='pt-[100px]'>
                 <HeaderComponent title='РАФТИНГ' />
             </div>
 

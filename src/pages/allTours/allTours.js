@@ -13,7 +13,7 @@ export default function AllTours(){
                 homePage='*'
             />
             
-            <div className="w-full pt-[30px] xs:pt-[100px]">
+            <div className="w-full pt-[100px]">
                 <HeaderComponent title='ЭКСКУРСИИ' />
             </div>
 

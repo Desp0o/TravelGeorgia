@@ -14,7 +14,7 @@ export default function ManyDaysTours(){
                 
             />
 
-            <div className="w-full pt-[30px] xs:pt-[100px] pb-[100px]">
+            <div className="w-full pt-[100px] pb-[100px]">
                 <HeaderComponent title='Многодневные Туры' />
                 
                 <div className="flex flex-wrap gap-[40px] pt-[0px] 

@@ -35,7 +35,7 @@ export default function Navbar(props) {
     return (
         <>
             <div
-                className="fixed bg-[#fff] navbar w-full h-[80px] pl-[140px] pr-[140px] 
+                className="fixed top-[0px] bg-[#fff] navbar w-full h-[80px] pl-[140px] pr-[140px] 
                    flex items-center	justify-between box-border overflow-hidden z-20
                    xs:pl-[20px] xs:pr-[20px] shadow-[0px_0px_20px_0.5px_rgba(0,0,0,0.3)]">
 
