@@ -69,10 +69,12 @@ code {
   }
 }
 
-.flag{
-  background: rgb(255,215,0);
-background: -moz-linear-gradient(180deg, rgba(255,215,0,1) 51%, rgba(0,160,177,1) 51%);
-background: -webkit-linear-gradient(180deg, rgba(255,215,0,1) 51%, rgba(0,160,177,1) 51%);
-background: linear-gradient(180deg, rgba(255,215,0,1) 51%, rgba(0,160,177,1) 51%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd700",endColorstr="#00a0b1",GradientType=1);
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb  {
+  background-color: #00A0B1;
+  border-radius: 10px;
 }
