@@ -24,10 +24,13 @@ export default function FirstScreen(){
                 <h1 className='text-[70px] xs:text-[30px] text-left xs:text-center leading-[4rem] font-[500] xs:w-[80%] xs:leading-[3rem]'>Пора путешествовать в Грузии</h1>
                 <p className='text-[16px] w-[400px] text-left xs:text-center xs:w-[95%]'>Дружеское объединение гидов-грузин. Узнай страну от тех, кто в ней родился и живёт!</p>
                 
-                <Link to='/pages/allTours/allTours'><div className='bg-[#00A0B1] w-[140px] h-[34px] rounded-[5px] flex content-center items-center justify-center cursor-pointer'>
-                    <span className='text-[16px] text-[#FFF]'>ЭКСКУРСИИ</span>
-                </div></Link>
+                <Link to='/pages/allTours/allTours'>
+                    <div className="group w-[140px] h-[34px] flex justify-center items-center 
+                                    rounded-[10px] bg-[#00A0B1] cursor-pointer hover:bg-[#FFD700] transition-all duration-750 ease">
+                        <span className="text-center text-[#FFF] font-[600] xs:text-[12px] group group-hover:text-[#16A6B6] transition-all duration-750 ease">ЭКСКУРСИИ</span>
+                    </div>
+                </Link>
             </div>
         </div>
     )
-}
+} 

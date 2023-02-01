@@ -72,8 +72,9 @@ export default function ToursSection(){
                                                 <span className="text-[#FF6B6B] font-[500] text-[30px] xs:text-[16px]">{item.price}</span>
                                             </div>
                                             <Link to={item.redirect}>
-                                                <div className="w-[97px] xs:w-[57px] h-[34px] xs:h-[24px]  flex justify-center items-center rounded-[10px] bg-[#00A0B1] cursor-pointer">
-                                                    <span className="text-center text-[#FFF] xs:text-[12px]">далше</span>
+                                                <div className="group w-[97px] xs:w-[57px] h-[34px] xs:h-[24px]  flex justify-center items-center 
+                                                                rounded-[10px] bg-[#00A0B1] cursor-pointer hover:bg-[#FFD700] transition-all duration-750 ease">
+                                                    <span className="text-center text-[#FFF] font-[600] xs:text-[12px] group group-hover:text-[#16A6B6] transition-all duration-750 ease">далше</span>
                                                 </div>
                                             </Link>
                                         </div>

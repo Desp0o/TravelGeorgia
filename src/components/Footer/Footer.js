@@ -1,5 +1,5 @@
 import ContactBlockFooter from '../contactBlockFooter'
-import logo from '../images/logoFooter.png'
+import logo from '../images/icon.png'
 
 export default function Footer(){
     return(

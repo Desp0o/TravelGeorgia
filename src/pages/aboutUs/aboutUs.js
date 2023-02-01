@@ -4,6 +4,7 @@ import StepBack from '../stepBack'
 import Footer from '../../components/Footer/Footer'
 
 import cover from '../../components/images/inner/forGeorgiaInner.jpg'
+import ReviewSlider from './reviewSlider'
 
 export default function AboutUs(){
     return(
@@ -27,8 +28,8 @@ export default function AboutUs(){
                 
                 </div>
             
-
-            
+            <HeaderComponent title='ОТЗЫВЫ О НАС'/>
+            <ReviewSlider />
 
             <div className='pt-[100px]'>
                 <Footer />

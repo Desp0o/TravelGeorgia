@@ -38,15 +38,21 @@ export default function Navbar(props) {
             <Link to='*'><img src={logo} alt='company logo' className='w-[100px] xs:w-[100px]' /></Link>
 
             <div className='menu flex gap-[55px] items-center h-full xs:hidden font-[900] text-[#00A0B1]'>
-                <Link to={props.homePage} onClick={burgerHandler}><li className='menu_links text-[14px] cursor-pointer list-none' >ГЛАВНАЯ</li></Link>
-                <Link to='/pages/allTours/allTours' onClick={burgerHandler}><li className='menu_links text-[14px] cursor-pointer list-none' onClick={burgerHandler}>ЭКСКУРСИИ</li></Link>
-                <Link to='/pages/uslugi/uslugi'><li className='menu_links text-[14px] cursor-pointer list-none uppercase'>Услуги</li></Link>
-                <Link to='/pages/aboutUs/aboutUs'><li className='menu_links text-[14px] cursor-pointer list-none'>О НАС</li></Link>
+                
+                <Link to={props.homePage} onClick={burgerHandler}><li className='menu_links text-[16px] cursor-pointer list-none hover:text-[#FFD700] transition-all duration-750 ease' >ГЛАВНАЯ</li></Link>
+                
+                <Link to='/pages/allTours/allTours' onClick={burgerHandler}><li className='menu_links text-[16px] cursor-pointer list-none hover:text-[#FFD700] transition-all duration-750 ease' onClick={burgerHandler}>ЭКСКУРСИИ</li></Link>
+                
+                <Link to='/pages/uslugi/uslugi'><li className='menu_links text-[16px] cursor-pointer list-none uppercase hover:text-[#FFD700] transition-all duration-750 ease'>Услуги</li></Link>
+                
             </div>
 
-            <div className='xs:hidden btn w-[88px] h-[34px] bg-[#00A0B1] rounded-[5px] cursor-pointer flex items-center justify-center'>
-                <span className='text-[#FFF] text-[14px] font-[600]'>Контакты</span>
-            </div>
+            <Link to='/pages/aboutUs/aboutUs'>
+                <div className='group xs:hidden btn w-[88px] h-[34px] bg-[#00A0B1] hover:bg-[#FFD700] rounded-[5px] 
+                                cursor-pointer flex items-center justify-center transition-all duration-750 ease'>
+                    <span className='text-[#FFF] group-hover:text-[#16A6B6] text-[14px] font-[600] transition-all duration-750 ease'>О НАС</span>
+                </div>
+            </Link>
 
             <img
                 className={menuClass}
