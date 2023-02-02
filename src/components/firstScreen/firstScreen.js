@@ -26,7 +26,7 @@ export default function FirstScreen(){
                 <h1 className='text-[70px] xs:text-[30px] text-left xs:text-center leading-[4rem] font-[500] xs:w-[80%] xs:leading-[3rem]'>Пора в Путешествие По Грузии</h1>
                 <p className='text-[16px] w-[400px] text-left xs:text-center xs:w-[95%]'>Дружеское объединение гидов из Грузии. Узнай о стране от тех, кто в ней родился и вырос!</p>
                 
-                <Link to='/pages/allTours/allTours'>
+                <Link to='/pages/aboutUs/aboutUs'>
                     <div className="group w-[140px] h-[34px] flex justify-center items-center 
                                     rounded-[10px] bg-[#00A0B1] cursor-pointer hover:bg-[#FFD700] transition-all duration-750 ease">
                         <span className="text-center text-[#FFF] font-[600] xs:text-[12px] group group-hover:text-[#16A6B6] transition-all duration-750 ease">ПОДРОБНЕЕ</span>

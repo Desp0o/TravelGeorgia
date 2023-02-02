@@ -29,7 +29,7 @@ export const popularDestination =  [
     {
     id:3,
     cover: `${kakheti}`,
-    title:"Кахетии",
+    title:"Кахетия",
     time: '10 часов',
     link:'/pages/oneDayTours/oneDayInner/kakheti_inner'
     },
