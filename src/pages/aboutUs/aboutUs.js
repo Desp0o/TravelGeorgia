@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Navbar'
 import StepBack from '../stepBack'
 import Footer from '../../components/Footer/Footer'
 
-import cover from '../../components/images/inner/forGeorgiaInner.jpg'
+import cover from '../../components/images/inner/aboutUs.jpg'
 import ReviewSlider from './reviewSlider'
 
 import guja from '../../components/images/guja.jpg'
@@ -53,7 +53,7 @@ export default function AboutUs() {
             </div>
 
 
-            <img src={cover} alt='cover' className='w-full h-[300px] pl-[120px] xs:pl-[20px] xs:pr-[20px] pr-[120px] object-cover object-center' />
+            <img src={cover} alt='cover' className='h-[400px] xs:h-[300px] mx-auto object-cover object-center rounded-[10px]' />
 
             <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px] pb-[80px]' >
                 <p>
