@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,7 +8,6 @@ import { reviewDB } from "./reviewDB";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import review1 from '../../components/images/reviews/reviev1 (1).jpg'
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
@@ -30,7 +29,7 @@ export default function ReviewSlider() {
                     reviewDB.map((item, index)=>{
                         return(
                             <SwiperSlide key={index}>
-                                <img src={item} />
+                                <img src={item} alt="reviev slider"/>
                             </SwiperSlide>
                         )
                     })

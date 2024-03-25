@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import '../../index.css'
 import Social from '../social'
 
 import logo from '../images/icon.png'
 import menuBars from '../images/icons/menuBars.png'
 import menuClose from '../images/icons/close.png'
-
-import ukr from '../../components/images/icons/ukr.png'
 
 export default function Navbar(props) {
     const [burgerBars, setBurgerBars] = useState(menuBars)

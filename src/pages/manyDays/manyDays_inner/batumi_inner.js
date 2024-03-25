@@ -2,7 +2,6 @@ import HeaderComponent from '../../../components/HeaderComponent'
 import Navbar from '../../../components/navbar/Navbar'
 import StepBack from '../../stepBack'
 import Footer from '../../../components/Footer/Footer'
-import LittleHeader from './ManyDaysHeader'
 
 import cover from '../../../components/images/inner/batumi.jpg'
 

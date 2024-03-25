@@ -16,6 +16,7 @@ export default function SimpleGallery(props) {
       lightbox.destroy();
       lightbox = null;
     };
+    //eslint-disable-next-line
   }, []);
 
   return (

@@ -2,7 +2,7 @@ export default function Social(props) {
     return (
         <div className={`flex ${props.gap} justify-center`}>
 
-            <a href="https://www.facebook.com/profile.php?id=100063642634952" target='_blank' alt='fblink'>
+            <a href="https://www.facebook.com/profile.php?id=100063642634952" target='_blank' rel="noreferrer" alt='fblink'>
                 <svg className="cursor-pointer" width="35px" height="35px" viewBox="0 0 20 20">
                     <rect x="0" fill="none" width="20" height="20" />
                     <g>
@@ -11,7 +11,7 @@ export default function Social(props) {
                 </svg>
             </a>
 
-            <a href="https://www.instagram.com/hello_from_georgia/" target='_blank' alt='fblink'>
+            <a href="https://www.instagram.com/hello_from_georgia/" target='_blank' rel="noreferrer" alt='fblink'>
                 <svg className="cursor-pointer" width="35px" height="35px" viewBox="0 0 48 48" version="1.1" id="Shopicons" >
                     <g fill={props.fill} id="instagram_00000127030415805702900630000013396224003006281109_">
                         <path d="M0-.019h48v48H0v-48z" fill="none" />

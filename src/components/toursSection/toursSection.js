@@ -2,8 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import { TourDataBase } from "./toursDatabase";
 import { Link } from "react-router-dom";
-import { useRef, useEffect } from "react";
-
 
 import "swiper/css";
 import "swiper/css/pagination";
