@@ -4,8 +4,8 @@ import '../../index.css'
 import Social from '../social'
 
 import logo from '../images/icon.webp'
-import menuBars from '../images/icons/menuBars.png'
-import menuClose from '../images/icons/close.png'
+import menuBars from '../images/icons/menuBars.webp'
+import menuClose from '../images/icons/close.webp'
 
 export default function Navbar(props) {
     const [burgerBars, setBurgerBars] = useState(menuBars)

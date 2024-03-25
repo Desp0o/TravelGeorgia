@@ -1,9 +1,9 @@
 import HeaderComponent from'../HeaderComponent'
 import OfferComponent from './offerComponent'
 
-import location2 from '../../components/images/icons/location2.png'
-import payment from '../../components/images/icons/payment.png'
-import airport from '../../components/images/icons/airport.png'
+import location2 from '../../components/images/icons/location2.webp'
+import payment from '../../components/images/icons/payment.webp'
+import airport from '../../components/images/icons/airport.webp'
 import batumi from '../../components/images/Batumi.webp'
 
 export default function BookFlight(){

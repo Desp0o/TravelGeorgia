@@ -1,4 +1,4 @@
-import clock from '../components/images/icons/clock.png'
+import clock from '../components/images/icons/clock.webp'
 import { Link } from 'react-router-dom'
 
 export default function CardComponent(props){

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import arrowBack from '../components/images/icons/arrowBack.png'
+import arrowBack from '../components/images/icons/arrowBack.webp'
 
 export default function StepBack(props){
     return (
