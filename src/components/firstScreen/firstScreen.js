@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import tbilisi from '../images/tbilisi.png'
+import tbilisi from '../images/tbilisi.webp'
 import flights from '../images/Flight.png'
 import ukr from '../images/icons/ukr.png'
 
