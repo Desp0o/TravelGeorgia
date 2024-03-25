@@ -1,7 +1,7 @@
 import seven from '../../components/images/inner/ananuri.jpg'
 import kaxeti from '../../components/images/inner/kaxeti.jpg'
 import kazbegi from '../../components/images/inner/kazbegi.jpg'
-import mtskheta from '../../components/images/mtskheta.jpg'
+import mtskheta from '../../components/images/mtskheta.webp'
 import svaneti from '../../components/images/inner/svaneti.jpg'
 import batumi from '../../components/images/inner/batumi.jpg'
 

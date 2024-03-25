@@ -6,10 +6,10 @@ import Footer from '../../components/Footer/Footer'
 import cover from '../../components/images/inner/aboutUs.jpg'
 import ReviewSlider from './reviewSlider'
 
-import guja from '../../components/images/guja.jpg'
-import zaza from '../../components/images/zaza.jpg'
-import tengo from '../../components/images/tengo.jpg'
-import shota from '../../components/images/shota.jpg'
+import guja from '../../components/images/guja.webp'
+import zaza from '../../components/images/zaza.webp'
+import tengo from '../../components/images/tengo.webp'
+import shota from '../../components/images/shota.webp'
 
 
 import car1 from '../../components/images/car/car1.jpg'

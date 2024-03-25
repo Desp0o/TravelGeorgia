@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import tbilisi from '../images/tbilisi.webp'
-import flights from '../images/Flight.png'
+import flights from '../images/Flight.webp'
 import ukr from '../images/icons/ukr.png'
 
 export default function FirstScreen(){

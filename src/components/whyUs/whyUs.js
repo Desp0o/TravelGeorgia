@@ -1,7 +1,7 @@
-import rec1 from '../../components/images/Rectangle1.png'
-import rec2 from '../../components/images/Rectangle2.png'
-import rec3 from '../../components/images/Rectangle3.png'
-import rec4 from '../../components/images/Rectangle4.png'
+import rec1 from '../../components/images/Rectangle1.webp'
+import rec2 from '../../components/images/Rectangle2.webp'
+import rec3 from '../../components/images/Rectangle3.webp'
+import rec4 from '../../components/images/Rectangle4.webp'
 import Counting from './countComponent'
 
 export default function WhyUs(){

@@ -1,12 +1,12 @@
 
-import oldTbilisi from '../../components/images/tbilisi2.jpg'
-import mtskheta from '../../components/images/mtskheta.jpg'
-import kakheti from '../../components/images/kakheti.png'
-import kazbegi from '../../components/images/kazbegi.jpg'
-import uflisicxe from '../../components/images/uflisicxe.png'
-import borjomi from '../../components/images/borjomi.png'
-import rabati from '../../components/images/rabati.png'
-import gareji from '../../components/images/gareji.png'
+import oldTbilisi from '../../components/images/tbilisi2.webp'
+import mtskheta from '../../components/images/mtskheta.webp'
+import kakheti from '../../components/images/kakheti.webp'
+import kazbegi from '../../components/images/kazbegi.webp'
+import uflisicxe from '../../components/images/uflisicxe.webp'
+import borjomi from '../../components/images/borjomi.webp'
+import rabati from '../../components/images/rabati.webp'
+import gareji from '../../components/images/gareji.webp'
 
 
 export const popularDestination =  [

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import '../../index.css'
 import Social from '../social'
 
-import logo from '../images/icon.png'
+import logo from '../images/icon.webp'
 import menuBars from '../images/icons/menuBars.png'
 import menuClose from '../images/icons/close.png'
 

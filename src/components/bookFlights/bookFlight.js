@@ -4,7 +4,7 @@ import OfferComponent from './offerComponent'
 import location2 from '../../components/images/icons/location2.png'
 import payment from '../../components/images/icons/payment.png'
 import airport from '../../components/images/icons/airport.png'
-import batumi from '../../components/images/Batumi.jpg'
+import batumi from '../../components/images/Batumi.webp'
 
 export default function BookFlight(){
     return(

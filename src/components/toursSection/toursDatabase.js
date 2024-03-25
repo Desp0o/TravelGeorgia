@@ -1,11 +1,11 @@
-import manyDaysTours from '../images/manyDaysTours.png'
-import tbilisi from '../images/oldTbilisi.png'
-import tbilisi2 from '../images/forGeorgia.jpg'
-import fishing from '../images/fishing.png'
-import rafting from '../images/rafting.png'
-import hiking from '../images/hiking.png'
-import church from  '../images/church.png'
-import rtveli from '../images/rtveli.png'
+import manyDaysTours from '../images/manyDaysTours.webp'
+import tbilisi from '../images/oldTbilisi.webp'
+import tbilisi2 from '../images/forGeorgia.webp'
+import fishing from '../images/fishing.webp'
+import rafting from '../images/rafting.webp'
+import hiking from '../images/hiking.webp'
+import church from  '../images/church.webp'
+import rtveli from '../images/rtveli.webp'
 
 
 export const TourDataBase =  [

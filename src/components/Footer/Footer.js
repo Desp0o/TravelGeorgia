@@ -1,5 +1,5 @@
 import ContactBlockFooter from '../contactBlockFooter'
-import logo from '../images/icon.png'
+import logo from '../images/icon.webp'
 import Social from '../social'
 
 export default function Footer() {
