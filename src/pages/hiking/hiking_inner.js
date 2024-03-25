@@ -4,7 +4,7 @@ import StepBack from '../stepBack'
 import Footer from '../../components/Footer/Footer'
 import LittleHeader from '../manyDays/manyDays_inner/ManyDaysHeader'
 
-import cover from '../../components/images/inner/hikinginner.jpg'
+import cover from '../../components/images/inner/hikinginner.webp'
 
 export default function HikingInner(){
     return(

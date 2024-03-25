@@ -2,7 +2,7 @@ import HeaderComponent from '../../components/HeaderComponent'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 
-import cover from '../../components/images/inner/forGeorgiaInner.jpg'
+import cover from '../../components/images/inner/forGeorgiaInner.webp'
 
 export default function Services() {
     return (

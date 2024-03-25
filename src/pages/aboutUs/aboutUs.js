@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Navbar'
 import SimpleGallery from '../fishing/SimpleGallery'
 import Footer from '../../components/Footer/Footer'
 
-import cover from '../../components/images/inner/aboutUs.jpg'
+import cover from '../../components/images/inner/aboutUs.webp'
 import ReviewSlider from './reviewSlider'
 
 import guja from '../../components/images/guja.webp'
@@ -12,16 +12,16 @@ import tengo from '../../components/images/tengo.webp'
 import shota from '../../components/images/shota.webp'
 
 
-import car1 from '../../components/images/car/car1.jpg'
-import car2 from '../../components/images/car/car2.jpg'
-import car3 from '../../components/images/car/car3.jpg'
-import car4 from '../../components/images/car/car4.jpg'
-import car5 from '../../components/images/car/car5.jpg'
-import car6 from '../../components/images/car/car6.jpg'
-import car10 from '../../components/images/car/car10.jpg'
-import car11 from '../../components/images/car/car11.jpg'
-import car12 from '../../components/images/car/car12.jpg'
-import car13 from '../../components/images/car/car13.jpg'
+import car1 from '../../components/images/car/car1.webp'
+import car2 from '../../components/images/car/car2.webp'
+import car3 from '../../components/images/car/car3.webp'
+import car4 from '../../components/images/car/car4.webp'
+import car5 from '../../components/images/car/car5.webp'
+import car6 from '../../components/images/car/car6.webp'
+import car10 from '../../components/images/car/car10.webp'
+import car11 from '../../components/images/car/car11.webp'
+import car12 from '../../components/images/car/car12.webp'
+import car13 from '../../components/images/car/car13.webp'
 
 
 const tourOperators = [

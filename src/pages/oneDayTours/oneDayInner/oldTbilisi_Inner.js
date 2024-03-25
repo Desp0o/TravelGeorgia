@@ -4,7 +4,7 @@ import StepBack from '../../stepBack'
 import Uslugi from '../../uslugi'
 import Footer from '../../../components/Footer/Footer'
 
-import cover from '../../../components/images/inner/tbilisi.jpg'
+import cover from '../../../components/images/inner/tbilisi.webp'
 import Options from '../../options'
 
 export default function OldTbilisi(){

@@ -4,7 +4,7 @@ import StepBack from '../../stepBack'
 import Footer from '../../../components/Footer/Footer'
 import LittleHeader from './ManyDaysHeader'
 
-import cover from '../../../components/images/inner/kaxeti.jpg'
+import cover from '../../../components/images/inner/kaxeti.webp'
 
 export default function KakhetiInner(){
     return(

@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Navbar'
 import StepBack from '../stepBack'
 import Footer from '../../components/Footer/Footer'
 
-import cover from '../../components/images/inner/forGeorgiaInner.jpg'
+import cover from '../../components/images/inner/forGeorgiaInner.webp'
 
 export default function ForGeorgians() {
     return (

@@ -4,7 +4,7 @@ import StepBack from '../../stepBack'
 import Footer from '../../../components/Footer/Footer'
 import LittleHeader from './ManyDaysHeader'
 
-import cover from '../../../components/images/inner/kazbegi.jpg'
+import cover from '../../../components/images/inner/kazbegi.webp'
 
 export default function FiveDaysInner() {
     return (

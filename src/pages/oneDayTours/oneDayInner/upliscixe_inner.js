@@ -4,7 +4,7 @@ import StepBack from '../../stepBack'
 import Uslugi from '../../uslugi'
 import Footer from '../../../components/Footer/Footer'
 
-import cover from '../../../components/images/inner/upliscixe.jpg'
+import cover from '../../../components/images/inner/upliscixe.webp'
 import Options from '../../options'
 
 export default function UpliscixeOneDay(){

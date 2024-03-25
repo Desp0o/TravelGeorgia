@@ -3,7 +3,7 @@ import Navbar from '../../../components/navbar/Navbar'
 import StepBack from '../../stepBack'
 import Footer from '../../../components/Footer/Footer'
 
-import cover from '../../../components/images/inner/batumi.jpg'
+import cover from '../../../components/images/inner/batumi.webp'
 
 export default function BatumiInner(){
     return(
