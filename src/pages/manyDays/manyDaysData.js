@@ -28,26 +28,26 @@ export const ManyDaysData =  [
     link: '/pages/manyDays/manyDays_inner/sevenDays_inner',
     time:"7 дня"
     },
-    {
-    id:4,
-    cover: `${svaneti}`,
-    title:"Десятидневный Тур",
-    link: '/pages/manyDays/manyDays_inner/svaneti_inner',
-    time:"10 дня"
-    },
-    {
-    id:5,
-    cover: `${kaxeti}`,
-    title:"Три дня в кахетии",
-    link: '/pages/manyDays/manyDays_inner/kakheti_inner',
-    time:"3 дня"
-    },
-    {
-    id:6,
-    cover: `${batumi}`,
-    title:"Трехдневный Тур",
-    link: '/pages/manyDays/manyDays_inner/batumi_inner',
-    time:"3 дня"
-    },
+    // {
+    // id:4,
+    // cover: `${svaneti}`,
+    // title:"Десятидневный Тур",
+    // link: '/pages/manyDays/manyDays_inner/svaneti_inner',
+    // time:"10 дня"
+    // },
+    // {
+    // id:5,
+    // cover: `${kaxeti}`,
+    // title:"Три дня в кахетии",
+    // link: '/pages/manyDays/manyDays_inner/kakheti_inner',
+    // time:"3 дня"
+    // },
+    // {
+    // id:6,
+    // cover: `${batumi}`,
+    // title:"Трехдневный Тур",
+    // link: '/pages/manyDays/manyDays_inner/batumi_inner',
+    // time:"3 дня"
+    // },
     
 ]
