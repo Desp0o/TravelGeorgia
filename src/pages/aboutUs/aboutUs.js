@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Navbar'
 import SimpleGallery from '../fishing/SimpleGallery'
 import Footer from '../../components/Footer/Footer'
 
-import cover from '../../components/images/inner/aboutUs.webp'
+import toursGeorgiaLogo from '../../components/images/toursGeorgiaLogo.png'
 import ReviewSlider from './reviewSlider'
 
 import guja from '../../components/images/guja.webp'
@@ -23,38 +23,6 @@ import car11 from '../../components/images/car/car11.webp'
 import car12 from '../../components/images/car/car12.webp'
 import car13 from '../../components/images/car/car13.webp'
 
-
-const tourOperators = [
-
-    {
-        id: 1,
-        image: `${tengo}`,
-        name: 'ТЭНГИЗ',
-        description: "открыл для общественности новый комплекс в Давид Гареджи (пещерный монастырь), о чем была снята передача, к нему ездят на паломнические туры коллективы  монастырей и церквей из разных концов мира уже много лет.  Историк. Горняк. Ответит на все вопросы  подробно и увлекательно. Проведет в самые 'дикие' уголки Сакартвело, ознакомит  с древними разрушенными временем городами так, что они оживут перед вами. Откроет незабываемый  мир гор и потаённых троп. По настоящему увлеченный своей страной."
-    },
-
-    {
-        id: 2,
-        image: `${guja}`,
-        name: 'ГУДЖА',
-        description: "наша гордость. Настоящий путешественник знает, как важно, когда  проводник родился и вырос на той земле, о которой рассказывает. Но наши экскурсоводы примечательны не только этим! "
-    },
-
-    {
-        id: 3,
-        image: `${zaza}`,
-        name: 'ЗАЗА',
-        description: "знает все регионы Грузии, как и все наши гиды, но особенно влюблен в Кахетию, где живет, и о которой знает все. Имеет свой виноградник и сам делает вино.  Плюс ко всему, Заза художник. Подмечает все оттенки и краски окружающего мира, что делает его экскурсии особенными. "
-    },
-
-    {
-        id: 4,
-        image: `${shota}`,
-        name: 'ШОТА',
-        description: "много лет  знакомит гостей нашей страны с разными ее уголками,  хорошо владеет не только русским, но и английским языками, всегда внимателен к пожеланиям своих гостей."
-    },
-]
-
 export default function AboutUs() {
     return (
 
@@ -66,7 +34,7 @@ export default function AboutUs() {
             </div>
 
 
-            <img src={cover} alt='cover' className='h-[400px] xs:h-[300px] mx-auto object-cover object-center rounded-[10px]' />
+            <img src={toursGeorgiaLogo} alt='toursGeorgiaLogo' className='h-[400px] xs:h-[300px] mx-auto object-cover object-center rounded-[10px]' />
 
             <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px] pb-[80px]' >
                 <p>
@@ -74,33 +42,8 @@ export default function AboutUs() {
                 </p>
             </div>
 
-
-            <HeaderComponent title='Наши гиды — наша гордость. ' />
-            <p className='w-[700px] xs:w-auto text-center mx-auto font-[600] pb-[30px] xs:pl-[20px] pr-[20px]'>Настоящий путешественник знает, как важно, когда  проводник родился и вырос на той земле, о которой рассказывает. Но наши экскурсоводы примечательны не только этим!</p>
-            <div className='pt-[30px] relative w-full flex flex-col gap-[50px] justify-center items-center xs:pl-[20px] xs:pr-[20px] pb-[100px] xs:pb-[50px]'>
-
-                {tourOperators.map((person) => {
-                    return (
-                        <div className='relative flex gap-[30px] items-start' key={person.id}>
-                            <img className='xs:sticky top-[100px] w-[250px] xs:w-[150px] rounded-[10px]' src={person.image} alt='tour operator' />
-
-                            <div className=''>
-                                <h3 className='font-[700] text-[18px]'>{person.name}</h3>
-                                <p className='w-[600px] xs:w-auto text-[14px]'>{person.description}</p>
-                            </div>
-
-                        </div>
-                    )
-                })}
-
-
-
-
-            </div>
-
-
             <HeaderComponent title='НАШ ТРАНСПОРТ' />
-            <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px] pb-[80px]'>
+            <div className='w-full pl-[120px] xs:pl-[20px] pt-[0px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px] pb-[80px]'>
                 <p>Ниже представлены фото далеко не всех транспортных средств, которыми мы располагаем. Потому есть возможность принять любое количество человек.</p>
                 <p>У нас Вы также можете заказать  авто и водителя  без сопровождения гида. При этом водитель прекрасно сориентирует Вас на местности, что и где посмотреть,  порекомендует места для питания, а при заказе эконом-услуги "водитель-гид" ещё и расскажет базовую информацию о местах посещения. </p>
                 <p>Осуществляем трансферы по всей Грузии. Цена зависит от расстояния, вида транспорта, что в свою очередь зависит от  количества человек.</p>
@@ -121,80 +64,81 @@ export default function AboutUs() {
                         },
                         {
                             largeURL:
-                            `${car2}`,
+                                `${car2}`,
                             thumbnailURL:
-                            `${car2}`,
+                                `${car2}`,
                             width: 406,
                             height: 406,
                         },
                         {
                             largeURL:
-                            `${car3}`,
+                                `${car3}`,
                             thumbnailURL:
-                            `${car3}`,
+                                `${car3}`,
                             width: 541,
                             height: 362,
                         },
                         {
                             largeURL:
-                            `${car4}`,
+                                `${car4}`,
                             thumbnailURL:
-                            `${car4}`,
+                                `${car4}`,
                             width: 541,
                             height: 407,
                         },
                         {
                             largeURL:
-                            `${car5}`,
+                                `${car5}`,
                             thumbnailURL:
-                            `${car5}`,
+                                `${car5}`,
                             width: 541,
                             height: 407,
                         },
                         {
                             largeURL:
-                            `${car6}`,
+                                `${car6}`,
                             thumbnailURL:
-                            `${car6}`,
+                                `${car6}`,
                             width: 535,
                             height: 401,
                         },
                         {
                             largeURL:
-                            `${car10}`,
+                                `${car10}`,
                             thumbnailURL:
-                            `${car10}`,
+                                `${car10}`,
                             width: 535,
                             height: 401,
                         },
                         {
                             largeURL:
-                            `${car11}`,
+                                `${car11}`,
                             thumbnailURL:
-                            `${car11}`,
+                                `${car11}`,
                             width: 540,
                             height: 405,
                         },
                         {
                             largeURL:
-                            `${car12}`,
+                                `${car12}`,
                             thumbnailURL:
-                            `${car12}`,
+                                `${car12}`,
                             width: 230,
                             height: 407,
                         },
                         {
                             largeURL:
-                            `${car13}`,
+                                `${car13}`,
                             thumbnailURL:
-                            `${car13}`,
+                                `${car13}`,
                             width: 306,
                             height: 407,
                         },
                     ]}
                 />
-                </div>
+            </div>
 
+            <div className='pt-[100px]' />
             <HeaderComponent title='ОТЗЫВЫ О НАС' />
             <ReviewSlider />
 
