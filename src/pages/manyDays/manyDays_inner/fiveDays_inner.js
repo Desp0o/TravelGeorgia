@@ -22,7 +22,7 @@ export default function FiveDaysInner() {
             <img src={cover} alt='cover' className='w-full h-[300px] pl-[120px] xs:pl-[20px] xs:pr-[20px] pr-[120px] object-cover object-center' />
 
             <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]' >
-                <p><b>Цена:</b> 3120₾ / 1035€ - за всю семью до 5 чел</p>
+                <p><b>Цена:</b> 3120₾ / 1035€ - за ВСЮ семью или коллектив  от 1 до 5 чел. включительно.</p>
                     <p>Для большего количества людей цена расчитывается индивидуально. Есть микроавтобусы, автобусы. </p>
                 <br />
 
