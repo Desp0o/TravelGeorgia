@@ -23,7 +23,7 @@ export default function FirstScreen(){
 
             <div className="flex flex-col justify-center xs:items-center gap-[30px] w-[500px] xs:w-full pt-[80px] box-border">
                 <p className='font-[700] text-[24px] text-[#00A0B1] xs:hidden'>Исследуйте Грузию</p>
-                <h1 className='text-[70px] xs:text-[30px] text-left xs:text-center leading-[4rem] font-[500] xs:w-[80%] xs:leading-[3rem]'>Пора в Путешествие По Грузии</h1>
+                <h1 className='text-[70px] xs:text-[30px] text-left xs:text-center leading-[4rem] font-[500] xs:w-[80%] xs:leading-[3rem]'>Пора в путешествие по Сакартвело!</h1>
                 <p className='text-[16px] w-[400px] text-left xs:text-center xs:w-[95%]'>Дружеское объединение гидов из Грузии. Узнай о стране от тех, кто в ней родился и вырос!</p>
                 
                 <Link to='/pages/aboutUs/aboutUs'>
