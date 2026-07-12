@@ -25,7 +25,7 @@ export default function OldTbilisi(){
                 <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]'>
                     <Options 
                         time='5'
-                        price1='120'
+                        price1='500₾ / 165€'
                         price2='160'
                     />
 

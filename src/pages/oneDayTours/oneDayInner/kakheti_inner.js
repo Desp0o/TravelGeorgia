@@ -25,7 +25,7 @@ export default function KakhetiOneDay(){
                 <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]'>
                     <Options 
                         time='10'
-                        price1='200'
+                        price1='665₾ / 220€'
                         price2='230'
                     />
 

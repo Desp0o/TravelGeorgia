@@ -25,7 +25,7 @@ export default function GarejiOneDay(){
                 <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]'>
                     <Options 
                         time='8-9'
-                        price1='185'
+                        price1='610₾ / 205€'
                         price2='220'
                     />
 

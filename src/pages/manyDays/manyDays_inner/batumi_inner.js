@@ -26,7 +26,6 @@ export default function BatumiInner(){
 
                     <br/>
                     <p><b>Цена:</b> 300$ от 1 до 4 Человек</p>
-                    <p><b>Цена:</b> 560$ от 5 до 6 Человек </p>
                     <br/>
 
                     <p>
