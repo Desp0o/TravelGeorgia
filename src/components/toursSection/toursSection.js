@@ -69,7 +69,7 @@ export default function ToursSection(){
                                         <div className="flex justify-between items-center absolute bottom-[20px] xs:bottom-[15px] right-[25px] left-[10px] w-[100]">
                                             <div className="flex items-center gap-[5px]">
                                                 <span className="xs:text-[14px]">{item.price ? item.from : ''}</span>
-                                                <span className={`text-[#FF6B6B] font-[500] ${item.price ? 'text-[30px] xs:text-[16px]' : 'text-[18px] xs:text-[13px]'}`}>{item.price || item.noFixedPrice}</span>
+                                                <span className={`text-[#FF6B6B] font-[500] text-[22px] xs:text-[13px]`}>{item.price || item.noFixedPrice}</span>
                                             </div>
                                             <Link to={item.redirect}>
                                                 <div className="group w-[97px] xs:w-[57px] h-[34px] xs:h-[24px]  flex justify-center items-center 
