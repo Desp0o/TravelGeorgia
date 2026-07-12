@@ -21,6 +21,8 @@ export default function ToursSection(){
                             spaceBetween={30}
                             loop={true}
                             loopFillGroupWithBlank={false}
+                            preventClicks={false}
+                            preventClicksPropagation={false}
                             pagination={{
                             clickable: true,
                             }}
