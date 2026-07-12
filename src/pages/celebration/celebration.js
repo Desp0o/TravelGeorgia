@@ -25,9 +25,7 @@ export default function CelebrationInner() {
 
                 <LittleHeader title='ВАРИАНТ 1' />
                 <p><b>ТБИЛИСИ. ЧЕРЕПАШЬЕ ОЗЕРО</b></p>
-                <p><b>Цена:</b> 310$ за двоих</p>
-                <p><b>Цена:</b> 330$ за троих</p>
-                <p><b>Цена:</b> 350$ за четверых</p>
+                <p><b>Цена:</b> договорная</p>
 
                 <br />
                 <p>

@@ -24,7 +24,7 @@ export default function ChurchInner() {
             <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]' >
 
                 <br />
-                <p><b>Цена:</b> 1225$ за всю семью, от 1 до 4 Человек</p>
+                <p><b>Цена:</b> договорная</p>
                 <br />
 
                 <p>
