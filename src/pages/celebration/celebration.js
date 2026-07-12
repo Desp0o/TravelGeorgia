@@ -24,7 +24,6 @@ export default function CelebrationInner() {
             <div className='w-full pl-[120px] xs:pl-[20px] pt-[20px] pr-[120px] xs:pr-[20px] xl:pl-[400px] xl:pr-[400px]' >
 
                 <LittleHeader title='ВАРИАНТ 1' />
-                <p><b>ТБИЛИСИ. ЧЕРЕПАШЬЕ ОЗЕРО</b></p>
                 <p><b>Цена:</b> договорная</p>
 
                 <br />
