@@ -14,7 +14,7 @@ export default function GarejiOneDay(){
             <Navbar homePage='*' />
             
             <div className='pt-[100px]'>
-                <HeaderComponent title='БОРЖОМИ' />
+                <HeaderComponent title='Давид Гареджи' />
             </div>
 
             <StepBack link='/pages/oneDayTours/oneDayTours' />
