@@ -14,7 +14,7 @@ export default function KakhetiOneDay(){
             <Navbar homePage='*' />
             
             <div className='pt-[100px]'>
-                <HeaderComponent title='КАХЕТИИ' />
+                <HeaderComponent title='Кахетия' />
             </div>
 
             <StepBack link='/pages/oneDayTours/oneDayTours' />

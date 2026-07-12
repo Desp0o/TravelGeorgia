@@ -14,7 +14,7 @@ export default function SevenDaysInner(){
             <Navbar homePage='*' />
             
             <div className='pt-[100px]'>
-                <HeaderComponent title='Пятидневный Тур' />
+                <HeaderComponent title='Семидневный Тур' />
             </div>
 
             <StepBack link='/pages/manyDays/manyDays' />
