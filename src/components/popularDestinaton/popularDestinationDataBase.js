@@ -13,7 +13,7 @@ export const popularDestination =  [
     {
     id:1,
     cover: `${oldTbilisi}`,
-    title:"Старый Тбилиси",
+    title:"Старый Тбилиси и Мцхета",
     time: '5 часов',
     link:'/pages/oneDayTours/oneDayInner/oldTbilisi_Inner'
     },
