@@ -39,17 +39,6 @@ export default function CelebrationInner() {
                     Цена заявленная в данном предложении как первая основная, указана за обслуживание двоих человек, двумя музыкантами, двумя танцорами, полноценным застольем. Включает в себя транспортные расходы, услуги водителя. Каждый каждый последующий человек до пяти + 20$.
                     Больше пяти человек рассчитываем индивидуально в зависимости от транспорта (микроавтобусы, автобусы) и места, требуемого для проведения именно этому количеству человек.
                 </p>
-
-
-                <div className="flex flex-wrap gap-[20px] justify-center my-[100px] xs:my-[50px]">
-                <iframe width="300" height="315" src="https://www.youtube.com/embed/bybkjq7lh_8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                <iframe width="300" height="315" src="https://www.youtube.com/embed/lALEeKM_1tc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                <iframe width="300" height="315" src="https://www.youtube.com/embed/I3fnof-egY8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                <iframe width="300" height="315" src="https://www.youtube.com/embed/A9QrmP6swS0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                <iframe width="300" height="315" src="https://www.youtube.com/embed/cUF2C4TDD2U" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                <iframe width="300" height="315" src="https://www.youtube.com/embed/cRFwsdPrXTE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                </div>
-
             </div>
 
 
